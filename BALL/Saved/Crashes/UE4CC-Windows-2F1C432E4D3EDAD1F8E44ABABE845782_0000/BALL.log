@@ -1,0 +1,1673 @@
+﻿Log file open, 09/14/20 22:05:58
+LogInit: Display: Running engine for game: BALL
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 26 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.186680
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-13942748
+LogInit: Engine Version: 4.25.3-13942748+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i7-9700K CPU @ 3.60GHz, GPU: NVIDIA GeForce RTX 2070 SUPER
+LogInit: Compiled (64-bit): Jul 25 2020 02:07:48
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line:  -EpicPortal -epicusername=RadiumP -epicuserid=85d41b0a25264fa1a60d5393424e9601 -epiclocale=en
+LogInit: Base Directory: E:/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/ue4/BALL/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.09.15-05.05.59:167][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.09.15-05.05.59:167][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.09.15-05.05.59:167][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [E:/ue4/BALL/Saved/Config/Windows/Engine.ini]
+[2020.09.15-05.05.59:168][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.09.15-05.05.59:168][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [E:/ue4/BALL/Saved/Config/Windows/Engine.ini]
+[2020.09.15-05.05.59:168][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/ue4/BALL/Saved/Config/Windows/Engine.ini]
+[2020.09.15-05.05.59:168][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.09.15-05.05.59:168][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.09.15-05.05.59:168][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.09.15-05.05.59:168][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.09.15-05.05.59:168][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.09.15-05.05.59:168][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.09.15-05.05.59:168][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.09.15-05.05.59:168][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.09.15-05.05.59:168][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.09.15-05.05.59:168][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.09.15-05.05.59:168][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.09.15-05.05.59:168][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.09.15-05.05.59:168][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.09.15-05.05.59:168][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.09.15-05.05.59:168][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [E:/ue4/BALL/Saved/Config/Windows/Engine.ini]
+[2020.09.15-05.05.59:168][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.09.15-05.05.59:168][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.09.15-05.05.59:168][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.09.15-05.05.59:168][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.09.15-05.05.59:168][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.09.15-05.05.59:168][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.09.15-05.05.59:168][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.09.15-05.05.59:168][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.09.15-05.05.59:168][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.09.15-05.05.59:168][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.09.15-05.05.59:168][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.09.15-05.05.59:168][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.09.15-05.05.59:168][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.09.15-05.05.59:168][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [E:/ue4/BALL/Saved/Config/Windows/Engine.ini]
+[2020.09.15-05.05.59:168][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [E:/ue4/BALL/Saved/Config/Windows/Engine.ini]
+[2020.09.15-05.05.59:170][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/ue4/BALL/Saved/Config/Windows/Scalability.ini]
+[2020.09.15-05.05.59:170][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.09.15-05.05.59:170][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.09.15-05.05.59:170][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/ue4/BALL/Saved/Config/Windows/Scalability.ini]
+[2020.09.15-05.05.59:170][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.09.15-05.05.59:170][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/ue4/BALL/Saved/Config/Windows/Scalability.ini]
+[2020.09.15-05.05.59:170][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.09.15-05.05.59:170][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.09.15-05.05.59:170][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.09.15-05.05.59:170][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.09.15-05.05.59:170][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.09.15-05.05.59:170][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.09.15-05.05.59:170][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.09.15-05.05.59:170][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.09.15-05.05.59:170][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.09.15-05.05.59:170][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.09.15-05.05.59:170][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.09.15-05.05.59:170][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.09.15-05.05.59:170][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.09.15-05.05.59:170][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.09.15-05.05.59:170][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.09.15-05.05.59:170][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.09.15-05.05.59:170][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.09.15-05.05.59:170][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.09.15-05.05.59:170][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/ue4/BALL/Saved/Config/Windows/Scalability.ini]
+[2020.09.15-05.05.59:170][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.09.15-05.05.59:170][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.09.15-05.05.59:170][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.09.15-05.05.59:170][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.09.15-05.05.59:171][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.09.15-05.05.59:171][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.09.15-05.05.59:171][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.09.15-05.05.59:171][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.09.15-05.05.59:171][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.09.15-05.05.59:171][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.09.15-05.05.59:171][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.09.15-05.05.59:171][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.09.15-05.05.59:171][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.09.15-05.05.59:171][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.09.15-05.05.59:171][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.09.15-05.05.59:171][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.09.15-05.05.59:171][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.09.15-05.05.59:171][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.09.15-05.05.59:171][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.09.15-05.05.59:171][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.09.15-05.05.59:171][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.09.15-05.05.59:171][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.09.15-05.05.59:171][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.09.15-05.05.59:171][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.09.15-05.05.59:171][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.09.15-05.05.59:171][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.09.15-05.05.59:171][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.09.15-05.05.59:171][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.09.15-05.05.59:171][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.09.15-05.05.59:171][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.09.15-05.05.59:171][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/ue4/BALL/Saved/Config/Windows/Scalability.ini]
+[2020.09.15-05.05.59:171][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.09.15-05.05.59:171][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.09.15-05.05.59:171][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.09.15-05.05.59:171][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.09.15-05.05.59:171][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.09.15-05.05.59:171][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.09.15-05.05.59:171][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.09.15-05.05.59:171][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.09.15-05.05.59:171][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.09.15-05.05.59:171][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/ue4/BALL/Saved/Config/Windows/Scalability.ini]
+[2020.09.15-05.05.59:171][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.09.15-05.05.59:171][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.09.15-05.05.59:171][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.09.15-05.05.59:171][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.09.15-05.05.59:171][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.09.15-05.05.59:171][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.09.15-05.05.59:171][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.09.15-05.05.59:171][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.09.15-05.05.59:171][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.09.15-05.05.59:171][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.09.15-05.05.59:171][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.09.15-05.05.59:171][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.09.15-05.05.59:171][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.09.15-05.05.59:171][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.09.15-05.05.59:171][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.09.15-05.05.59:171][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.09.15-05.05.59:171][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.09.15-05.05.59:171][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.09.15-05.05.59:171][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.09.15-05.05.59:171][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.09.15-05.05.59:171][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.09.15-05.05.59:171][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.09.15-05.05.59:171][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.09.15-05.05.59:171][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.09.15-05.05.59:171][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.09.15-05.05.59:171][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.09.15-05.05.59:171][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/ue4/BALL/Saved/Config/Windows/Scalability.ini]
+[2020.09.15-05.05.59:171][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.09.15-05.05.59:171][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.09.15-05.05.59:171][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [E:/ue4/BALL/Saved/Config/Windows/Scalability.ini]
+[2020.09.15-05.05.59:171][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.09.15-05.05.59:171][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.09.15-05.05.59:171][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.09.15-05.05.59:171][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.09.15-05.05.59:171][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.09.15-05.05.59:171][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.09.15-05.05.59:171][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.09.15-05.05.59:171][  0]LogInit: Selected Device Profile: [Windows]
+[2020.09.15-05.05.59:171][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.09.15-05.05.59:171][  0]LogHAL: Display: Platform has ~ 16 GB [17082105856 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.09.15-05.05.59:171][  0]LogInit: Going up to parent DeviceProfile []
+[2020.09.15-05.05.59:172][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/ue4/BALL/Saved/Config/Windows/Scalability.ini]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/ue4/BALL/Saved/Config/Windows/Scalability.ini]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/ue4/BALL/Saved/Config/Windows/Scalability.ini]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/ue4/BALL/Saved/Config/Windows/Scalability.ini]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/ue4/BALL/Saved/Config/Windows/Scalability.ini]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/ue4/BALL/Saved/Config/Windows/Scalability.ini]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.09.15-05.05.59:172][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.09.15-05.05.59:173][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.09.15-05.05.59:173][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.09.15-05.05.59:173][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.09.15-05.05.59:173][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/ue4/BALL/Saved/Config/Windows/Scalability.ini]
+[2020.09.15-05.05.59:173][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.09.15-05.05.59:173][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.09.15-05.05.59:173][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [E:/ue4/BALL/Saved/Config/Windows/Scalability.ini]
+[2020.09.15-05.05.59:173][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.09.15-05.05.59:173][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.09.15-05.05.59:173][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.09.15-05.05.59:173][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.09.15-05.05.59:173][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.09.15-05.05.59:173][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.09.15-05.05.59:173][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.09.15-05.05.59:173][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.09.15-05.05.59:173][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.09.15-05.05.59:173][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.09.15-05.05.59:173][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.09.15-05.05.59:173][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [E:/ue4/BALL/Saved/Config/Windows/Engine.ini]
+[2020.09.15-05.05.59:173][  0]LogInit: Computer: DESKTOP-ALKKQ0L
+[2020.09.15-05.05.59:173][  0]LogInit: User: 32808
+[2020.09.15-05.05.59:173][  0]LogInit: CPU Page size=4096, Cores=8
+[2020.09.15-05.05.59:173][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.09.15-05.05.59:173][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.09.15-05.05.59:173][  0]LogMemory: Platform Memory Stats for Windows
+[2020.09.15-05.05.59:173][  0]LogMemory: Process Physical Memory: 117.13 MB used, 117.13 MB peak
+[2020.09.15-05.05.59:173][  0]LogMemory: Process Virtual Memory: 96.69 MB used, 96.69 MB peak
+[2020.09.15-05.05.59:173][  0]LogMemory: Physical Memory: 6621.30 MB used,  9669.46 MB free, 16290.77 MB total
+[2020.09.15-05.05.59:173][  0]LogMemory: Virtual Memory: 5147.82 MB used,  134212584.00 MB free, 134217728.00 MB total
+[2020.09.15-05.05.59:179][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.09.15-05.05.59:210][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.09.15-05.05.59:211][  0]LogInit: Using OS detected language (en-US).
+[2020.09.15-05.05.59:211][  0]LogInit: Using OS detected locale (en-US).
+[2020.09.15-05.05.59:213][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.09.15-05.05.59:348][  0]LogInit: Setting process to per monitor DPI aware
+[2020.09.15-05.05.59:379][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.09.15-05.05.59:379][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.09.15-05.05.59:528][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.09.15-05.05.59:528][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.09.15-05.05.59:528][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.09.15-05.05.59:528][  0]LogD3D11RHI: D3D11 adapters:
+[2020.09.15-05.05.59:607][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2070 SUPER' (Feature Level 11_0)
+[2020.09.15-05.05.59:607][  0]LogD3D11RHI:       8011/0/8145 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.09.15-05.05.59:610][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.09.15-05.05.59:610][  0]LogD3D11RHI:       0/0/8145 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.09.15-05.05.59:610][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.09.15-05.05.59:615][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.09.15-05.05.59:615][  0]LogD3D11RHI:     GPU DeviceId: 0x1e84 (for the marketing name, search the web for "GPU Device Id")
+[2020.09.15-05.05.59:615][  0]LogWindows: EnumDisplayDevices:
+[2020.09.15-05.05.59:615][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2070 SUPER' (P:1 D:1)
+[2020.09.15-05.05.59:616][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2070 SUPER' (P:0 D:0)
+[2020.09.15-05.05.59:616][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2070 SUPER' (P:0 D:0)
+[2020.09.15-05.05.59:617][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2070 SUPER' (P:0 D:0)
+[2020.09.15-05.05.59:618][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.09.15-05.05.59:618][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2070 SUPER
+[2020.09.15-05.05.59:618][  0]LogD3D11RHI:   Driver Version: 452.06 (internal:27.21.14.5206, unified:452.06)
+[2020.09.15-05.05.59:618][  0]LogD3D11RHI:      Driver Date: 8-12-2020
+[2020.09.15-05.05.59:618][  0]LogRHI: Texture pool is 5607 MB (70% of 8011 MB)
+[2020.09.15-05.05.59:661][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.09.15-05.05.59:663][  0]LogD3D11RHI: [Aftermath] Enabled and primed
+[2020.09.15-05.05.59:663][  0]LogD3D11RHI: Async texture creation enabled
+[2020.09.15-05.05.59:663][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.09.15-05.05.59:682][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.09.15-05.05.59:997][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.09.15-05.06.00:014][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.09.15-05.06.00:015][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.09.15-05.06.00:015][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.09.15-05.06.00:015][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.09.15-05.06.00:015][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.09.15-05.06.00:015][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.09.15-05.06.00:015][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.09.15-05.06.00:015][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.09.15-05.06.00:015][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.09.15-05.06.00:015][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.09.15-05.06.00:035][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.09.15-05.06.00:035][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.09.15-05.06.00:044][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.09.15-05.06.00:051][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.09.15-05.06.00:059][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.09.15-05.06.00:066][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.09.15-05.06.00:074][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.09.15-05.06.00:082][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.09.15-05.06.00:090][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.09.15-05.06.00:111][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.09.15-05.06.00:111][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.09.15-05.06.00:125][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.09.15-05.06.00:125][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.09.15-05.06.00:133][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.09.15-05.06.00:141][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.09.15-05.06.00:149][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.09.15-05.06.00:157][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.09.15-05.06.00:157][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.09.15-05.06.00:164][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.09.15-05.06.00:217][  0]LogShaderCompilers: Guid format shader working directory is 25 characters bigger than the processId version (../../../../ue4/BALL/Intermediate/Shaders/WorkingDirectory/18388/).
+[2020.09.15-05.06.00:217][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/32808/AppData/Local/Temp/UnrealShaderWorkingDir/5E89FA2B44B9DF0F860F64B2407181AB/'.
+[2020.09.15-05.06.00:218][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.09.15-05.06.00:218][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.09.15-05.06.00:218][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.09.15-05.06.00:931][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.09.15-05.06.00:975][  0]LogDerivedDataCache: Loaded boot cache 0.04s 76MB C:/Users/32808/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.09.15-05.06.00:975][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/32808/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.09.15-05.06.00:975][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../ue4/BALL/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.09.15-05.06.00:975][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.09.15-05.06.00:975][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../ue4/BALL/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.09.15-05.06.00:975][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.09.15-05.06.00:985][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.09.15-05.06.00:985][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.09.15-05.06.00:985][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.09.15-05.06.00:986][  0]LogDerivedDataCache: Using Local data cache path C:/Users/32808/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.09.15-05.06.00:986][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.09.15-05.06.00:986][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.09.15-05.06.01:032][  0]LogSlate: Using FreeType 2.10.0
+[2020.09.15-05.06.01:033][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.09.15-05.06.01:057][  0]LogAssetRegistry: FAssetRegistry took 0.0020 seconds to start up
+[2020.09.15-05.06.01:247][  0]LogInit: Selected Device Profile: [Windows]
+[2020.09.15-05.06.01:352][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.09.15-05.06.01:352][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.09.15-05.06.01:352][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.09.15-05.06.01:352][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.09.15-05.06.01:352][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.09.15-05.06.01:364][  0]LogNetVersion: BALL 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 3298489060)
+[2020.09.15-05.06.01:749][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (00000140C8429340), frame # 0
+[2020.09.15-05.06.01:749][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000140C837EAC0), frame # 0
+[2020.09.15-05.06.01:750][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000140C83CA000), frame # 0
+[2020.09.15-05.06.01:780][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.024633 seconds
+[2020.09.15-05.06.01:784][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.09.15-05.06.01:784][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.09.15-05.06.01:784][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.09.15-05.06.02:081][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.09.15-05.06.02:109][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.09.15-05.06.02:179][  0]SourceControl: Source control is disabled
+[2020.09.15-05.06.02:179][  0]SourceControl: Source control is disabled
+[2020.09.15-05.06.02:182][  0]SourceControl: Source control is disabled
+[2020.09.15-05.06.02:184][  0]SourceControl: Source control is disabled
+[2020.09.15-05.06.02:191][  0]SourceControl: Source control is disabled
+[2020.09.15-05.06.02:403][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.09.15-05.06.02:421][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.09.15-05.06.02:421][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.09.15-05.06.02:462][  0]LogOcInput: OculusInput pre-init called
+[2020.09.15-05.06.02:471][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.09.15-05.06.02:471][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.09.15-05.06.02:524][  0]LogEngine: Initializing Engine...
+[2020.09.15-05.06.02:525][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.09.15-05.06.02:525][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.09.15-05.06.02:526][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.09.15-05.06.02:628][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.09.15-05.06.02:635][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.09.15-05.06.02:635][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000140CBE47C00), frame # 0
+[2020.09.15-05.06.02:635][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000140CBEFCA40), frame # 0
+[2020.09.15-05.06.02:649][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.15-05.06.02:649][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.15-05.06.02:649][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.15-05.06.02:649][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.15-05.06.02:649][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.15-05.06.02:649][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.15-05.06.02:649][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.15-05.06.02:649][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.15-05.06.02:650][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.15-05.06.02:650][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.15-05.06.02:679][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.15-05.06.02:679][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.09.15-05.06.02:766][  0]LogAudioMixer: Display: Using Audio Device Dell S2716DG (2- NVIDIA High Definition Audio)
+[2020.09.15-05.06.02:769][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.09.15-05.06.02:771][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.09.15-05.06.02:771][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.09.15-05.06.02:771][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.09.15-05.06.02:772][  0]LogInit: FAudioDevice initialized.
+[2020.09.15-05.06.02:772][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.09.15-05.06.02:822][  0]LogDerivedDataCache: Saved boot cache 0.05s 76MB C:/Users/32808/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.09.15-05.06.02:822][  0]LogInit: Texture streaming: Enabled
+[2020.09.15-05.06.02:837][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.09.15-05.06.02:837][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.09.15-05.06.02:839][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.09.15-05.06.02:852][  0]LogInit: Transaction tracking system initialized
+[2020.09.15-05.06.02:871][  0]BlueprintLog: New page: Editor Load
+[2020.09.15-05.06.02:949][  0]LocalizationService: Localization service is disabled
+[2020.09.15-05.06.03:097][  0]LogFileCache: Scanning file cache for directory 'E:/ue4/BALL/Content/' took 0.00s
+[2020.09.15-05.06.03:097][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.09.15-05.06.03:097][  0]LogCook: Display: Mobile HDR setting 1
+[2020.09.15-05.06.03:438][  0]SourceControl: Source control is disabled
+[2020.09.15-05.06.03:438][  0]LogUnrealEdMisc: Loading editor; pre map load, took 5.823
+[2020.09.15-05.06.03:439][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 E:/UE_4.25/FeaturePacks/StarterContent.upack)
+[2020.09.15-05.06.03:442][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2020.09.15-05.06.03:442][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../ue4/BALL/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2020.09.15-05.06.03:443][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../ue4/BALL/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2020.09.15-05.06.03:443][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../ue4/BALL/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2020.09.15-05.06.03:444][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../ue4/BALL/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2020.09.15-05.06.03:444][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../ue4/BALL/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2020.09.15-05.06.03:445][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../ue4/BALL/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2020.09.15-05.06.03:445][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../ue4/BALL/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2020.09.15-05.06.03:446][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../ue4/BALL/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2020.09.15-05.06.03:446][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../ue4/BALL/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2020.09.15-05.06.03:447][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../ue4/BALL/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2020.09.15-05.06.03:447][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../ue4/BALL/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2020.09.15-05.06.03:448][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../ue4/BALL/Content/StarterContent/Audio/Collapse01.uasset"
+[2020.09.15-05.06.03:448][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../ue4/BALL/Content/StarterContent/Audio/Collapse02.uasset"
+[2020.09.15-05.06.03:449][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../ue4/BALL/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2020.09.15-05.06.03:449][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../ue4/BALL/Content/StarterContent/Audio/Explosion01.uasset"
+[2020.09.15-05.06.03:450][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../ue4/BALL/Content/StarterContent/Audio/Explosion02.uasset"
+[2020.09.15-05.06.03:450][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../ue4/BALL/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2020.09.15-05.06.03:451][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../ue4/BALL/Content/StarterContent/Audio/Fire01.uasset"
+[2020.09.15-05.06.03:451][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../ue4/BALL/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2020.09.15-05.06.03:458][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../ue4/BALL/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2020.09.15-05.06.03:458][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../ue4/BALL/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2020.09.15-05.06.03:459][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../ue4/BALL/Content/StarterContent/Audio/Light01.uasset"
+[2020.09.15-05.06.03:459][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../ue4/BALL/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2020.09.15-05.06.03:460][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../ue4/BALL/Content/StarterContent/Audio/Light02.uasset"
+[2020.09.15-05.06.03:460][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../ue4/BALL/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2020.09.15-05.06.03:461][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../ue4/BALL/Content/StarterContent/Audio/Smoke01.uasset"
+[2020.09.15-05.06.03:461][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../ue4/BALL/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2020.09.15-05.06.03:462][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../ue4/BALL/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2020.09.15-05.06.03:463][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../ue4/BALL/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2020.09.15-05.06.03:467][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../ue4/BALL/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2020.09.15-05.06.03:468][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../ue4/BALL/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2020.09.15-05.06.03:469][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../ue4/BALL/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2020.09.15-05.06.03:471][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../ue4/BALL/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2020.09.15-05.06.03:471][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../ue4/BALL/Content/StarterContent/Audio/Steam01.uasset"
+[2020.09.15-05.06.03:472][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../ue4/BALL/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2020.09.15-05.06.03:472][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../ue4/BALL/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2020.09.15-05.06.03:473][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../ue4/BALL/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2020.09.15-05.06.03:473][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../ue4/BALL/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2020.09.15-05.06.03:474][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../ue4/BALL/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2020.09.15-05.06.03:474][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../ue4/BALL/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2020.09.15-05.06.03:475][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../ue4/BALL/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2020.09.15-05.06.03:475][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../ue4/BALL/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2020.09.15-05.06.03:476][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../ue4/BALL/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2020.09.15-05.06.03:476][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../ue4/BALL/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2020.09.15-05.06.03:477][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../ue4/BALL/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2020.09.15-05.06.03:477][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../ue4/BALL/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2020.09.15-05.06.03:478][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../ue4/BALL/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2020.09.15-05.06.03:478][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../ue4/BALL/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2020.09.15-05.06.03:479][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../ue4/BALL/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2020.09.15-05.06.03:480][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../ue4/BALL/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2020.09.15-05.06.03:480][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../ue4/BALL/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2020.09.15-05.06.03:509][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../ue4/BALL/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2020.09.15-05.06.03:510][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../ue4/BALL/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2020.09.15-05.06.03:511][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "../../../../ue4/BALL/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
+[2020.09.15-05.06.03:511][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../ue4/BALL/Content/StarterContent/Maps/Minimal_Default.umap"
+[2020.09.15-05.06.03:513][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "../../../../ue4/BALL/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
+[2020.09.15-05.06.03:514][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../ue4/BALL/Content/StarterContent/Maps/StarterMap.umap"
+[2020.09.15-05.06.03:524][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "../../../../ue4/BALL/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
+[2020.09.15-05.06.03:524][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../ue4/BALL/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2020.09.15-05.06.03:525][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../ue4/BALL/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2020.09.15-05.06.03:525][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../ue4/BALL/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2020.09.15-05.06.03:526][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../ue4/BALL/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2020.09.15-05.06.03:526][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../ue4/BALL/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2020.09.15-05.06.03:527][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../ue4/BALL/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2020.09.15-05.06.03:527][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../ue4/BALL/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2020.09.15-05.06.03:528][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../ue4/BALL/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2020.09.15-05.06.03:528][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../ue4/BALL/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2020.09.15-05.06.03:529][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../ue4/BALL/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2020.09.15-05.06.03:529][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../ue4/BALL/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2020.09.15-05.06.03:530][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../ue4/BALL/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2020.09.15-05.06.03:530][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../ue4/BALL/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2020.09.15-05.06.03:531][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../ue4/BALL/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2020.09.15-05.06.03:532][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../ue4/BALL/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2020.09.15-05.06.03:532][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../ue4/BALL/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2020.09.15-05.06.03:533][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../ue4/BALL/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2020.09.15-05.06.03:533][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../ue4/BALL/Content/StarterContent/Materials/M_Glass.uasset"
+[2020.09.15-05.06.03:533][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../ue4/BALL/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2020.09.15-05.06.03:534][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../ue4/BALL/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2020.09.15-05.06.03:534][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../ue4/BALL/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2020.09.15-05.06.03:535][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../ue4/BALL/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2020.09.15-05.06.03:535][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../ue4/BALL/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2020.09.15-05.06.03:536][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../ue4/BALL/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2020.09.15-05.06.03:536][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../ue4/BALL/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2020.09.15-05.06.03:537][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../ue4/BALL/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2020.09.15-05.06.03:537][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../ue4/BALL/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2020.09.15-05.06.03:538][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../ue4/BALL/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2020.09.15-05.06.03:538][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../ue4/BALL/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2020.09.15-05.06.03:539][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../ue4/BALL/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2020.09.15-05.06.03:540][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../ue4/BALL/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2020.09.15-05.06.03:540][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../ue4/BALL/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2020.09.15-05.06.03:541][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../ue4/BALL/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2020.09.15-05.06.03:541][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../ue4/BALL/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2020.09.15-05.06.03:541][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../ue4/BALL/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2020.09.15-05.06.03:542][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../ue4/BALL/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2020.09.15-05.06.03:542][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../ue4/BALL/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2020.09.15-05.06.03:543][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../ue4/BALL/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2020.09.15-05.06.03:543][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../ue4/BALL/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2020.09.15-05.06.03:544][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../ue4/BALL/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2020.09.15-05.06.03:544][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../ue4/BALL/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2020.09.15-05.06.03:545][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../ue4/BALL/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2020.09.15-05.06.03:545][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../ue4/BALL/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2020.09.15-05.06.03:546][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../ue4/BALL/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2020.09.15-05.06.03:546][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../ue4/BALL/Content/StarterContent/Particles/P_Explosion.uasset"
+[2020.09.15-05.06.03:547][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../ue4/BALL/Content/StarterContent/Particles/P_Fire.uasset"
+[2020.09.15-05.06.03:547][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../ue4/BALL/Content/StarterContent/Particles/P_Smoke.uasset"
+[2020.09.15-05.06.03:548][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../ue4/BALL/Content/StarterContent/Particles/P_Sparks.uasset"
+[2020.09.15-05.06.03:549][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../ue4/BALL/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2020.09.15-05.06.03:549][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../ue4/BALL/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2020.09.15-05.06.03:550][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../ue4/BALL/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2020.09.15-05.06.03:550][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../ue4/BALL/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2020.09.15-05.06.03:550][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../ue4/BALL/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2020.09.15-05.06.03:551][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../ue4/BALL/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2020.09.15-05.06.03:552][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../ue4/BALL/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2020.09.15-05.06.03:552][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../ue4/BALL/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2020.09.15-05.06.03:552][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../ue4/BALL/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2020.09.15-05.06.03:553][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../ue4/BALL/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2020.09.15-05.06.03:553][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../ue4/BALL/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2020.09.15-05.06.03:554][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../ue4/BALL/Content/StarterContent/Props/MaterialSphere.uasset"
+[2020.09.15-05.06.03:554][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../ue4/BALL/Content/StarterContent/Props/SM_Bush.uasset"
+[2020.09.15-05.06.03:555][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../ue4/BALL/Content/StarterContent/Props/SM_Chair.uasset"
+[2020.09.15-05.06.03:555][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../ue4/BALL/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2020.09.15-05.06.03:556][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../ue4/BALL/Content/StarterContent/Props/SM_Couch.uasset"
+[2020.09.15-05.06.03:556][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../ue4/BALL/Content/StarterContent/Props/SM_Door.uasset"
+[2020.09.15-05.06.03:557][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../ue4/BALL/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2020.09.15-05.06.03:557][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../ue4/BALL/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2020.09.15-05.06.03:558][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../ue4/BALL/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2020.09.15-05.06.03:558][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../ue4/BALL/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2020.09.15-05.06.03:560][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../ue4/BALL/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2020.09.15-05.06.03:560][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../ue4/BALL/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2020.09.15-05.06.03:561][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../ue4/BALL/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2020.09.15-05.06.03:561][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../ue4/BALL/Content/StarterContent/Props/SM_Rock.uasset"
+[2020.09.15-05.06.03:562][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../ue4/BALL/Content/StarterContent/Props/SM_Shelf.uasset"
+[2020.09.15-05.06.03:562][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../ue4/BALL/Content/StarterContent/Props/SM_Stairs.uasset"
+[2020.09.15-05.06.03:563][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../ue4/BALL/Content/StarterContent/Props/SM_Statue.uasset"
+[2020.09.15-05.06.03:563][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../ue4/BALL/Content/StarterContent/Props/SM_TableRound.uasset"
+[2020.09.15-05.06.03:564][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../ue4/BALL/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2020.09.15-05.06.03:564][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../ue4/BALL/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2020.09.15-05.06.03:565][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../ue4/BALL/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2020.09.15-05.06.03:565][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../ue4/BALL/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2020.09.15-05.06.03:566][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../ue4/BALL/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2020.09.15-05.06.03:566][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../ue4/BALL/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2020.09.15-05.06.03:567][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../ue4/BALL/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2020.09.15-05.06.03:567][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../ue4/BALL/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2020.09.15-05.06.03:568][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../ue4/BALL/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2020.09.15-05.06.03:568][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../ue4/BALL/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2020.09.15-05.06.03:569][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../ue4/BALL/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2020.09.15-05.06.03:569][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../ue4/BALL/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2020.09.15-05.06.03:569][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../ue4/BALL/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2020.09.15-05.06.03:570][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../ue4/BALL/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2020.09.15-05.06.03:570][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../ue4/BALL/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2020.09.15-05.06.03:571][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../ue4/BALL/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2020.09.15-05.06.03:571][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../ue4/BALL/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2020.09.15-05.06.03:572][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../ue4/BALL/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2020.09.15-05.06.03:573][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../ue4/BALL/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2020.09.15-05.06.03:573][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../ue4/BALL/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2020.09.15-05.06.03:573][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../ue4/BALL/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2020.09.15-05.06.03:574][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../ue4/BALL/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2020.09.15-05.06.03:574][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../ue4/BALL/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2020.09.15-05.06.03:575][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../ue4/BALL/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2020.09.15-05.06.03:576][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../ue4/BALL/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2020.09.15-05.06.03:576][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../ue4/BALL/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2020.09.15-05.06.03:576][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../ue4/BALL/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2020.09.15-05.06.03:577][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../ue4/BALL/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2020.09.15-05.06.03:577][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../ue4/BALL/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2020.09.15-05.06.03:578][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../ue4/BALL/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2020.09.15-05.06.03:578][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../ue4/BALL/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2020.09.15-05.06.03:579][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../ue4/BALL/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2020.09.15-05.06.03:583][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2020.09.15-05.06.03:587][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2020.09.15-05.06.03:590][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2020.09.15-05.06.03:593][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2020.09.15-05.06.03:598][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2020.09.15-05.06.03:601][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2020.09.15-05.06.03:606][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2020.09.15-05.06.03:610][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2020.09.15-05.06.03:616][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2020.09.15-05.06.03:619][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2020.09.15-05.06.03:622][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2020.09.15-05.06.03:626][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2020.09.15-05.06.03:630][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2020.09.15-05.06.03:630][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2020.09.15-05.06.03:631][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2020.09.15-05.06.03:632][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2020.09.15-05.06.03:632][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2020.09.15-05.06.03:633][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2020.09.15-05.06.03:633][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2020.09.15-05.06.03:634][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2020.09.15-05.06.03:635][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2020.09.15-05.06.03:640][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2020.09.15-05.06.03:641][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2020.09.15-05.06.03:646][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2020.09.15-05.06.03:648][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2020.09.15-05.06.03:650][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2020.09.15-05.06.03:652][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2020.09.15-05.06.03:655][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2020.09.15-05.06.03:659][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2020.09.15-05.06.03:675][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2020.09.15-05.06.03:679][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2020.09.15-05.06.03:682][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2020.09.15-05.06.03:687][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2020.09.15-05.06.03:690][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2020.09.15-05.06.03:692][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2020.09.15-05.06.03:695][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2020.09.15-05.06.03:698][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2020.09.15-05.06.03:699][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2020.09.15-05.06.03:701][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2020.09.15-05.06.03:701][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Door_M.uasset"
+[2020.09.15-05.06.03:702][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Door_N.uasset"
+[2020.09.15-05.06.03:703][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2020.09.15-05.06.03:704][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2020.09.15-05.06.03:705][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2020.09.15-05.06.03:706][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2020.09.15-05.06.03:707][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2020.09.15-05.06.03:707][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2020.09.15-05.06.03:708][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2020.09.15-05.06.03:713][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2020.09.15-05.06.03:718][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2020.09.15-05.06.03:723][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2020.09.15-05.06.03:726][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2020.09.15-05.06.03:732][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2020.09.15-05.06.03:736][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2020.09.15-05.06.03:737][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2020.09.15-05.06.03:738][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2020.09.15-05.06.03:742][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2020.09.15-05.06.03:747][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2020.09.15-05.06.03:751][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2020.09.15-05.06.03:755][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2020.09.15-05.06.03:756][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2020.09.15-05.06.03:761][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2020.09.15-05.06.03:765][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2020.09.15-05.06.03:766][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2020.09.15-05.06.03:769][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2020.09.15-05.06.03:773][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2020.09.15-05.06.03:774][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2020.09.15-05.06.03:776][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2020.09.15-05.06.03:781][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2020.09.15-05.06.03:784][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2020.09.15-05.06.03:787][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2020.09.15-05.06.03:791][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2020.09.15-05.06.03:795][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2020.09.15-05.06.03:800][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2020.09.15-05.06.03:805][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2020.09.15-05.06.03:809][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2020.09.15-05.06.03:810][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2020.09.15-05.06.03:811][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2020.09.15-05.06.03:812][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2020.09.15-05.06.03:813][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2020.09.15-05.06.03:814][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2020.09.15-05.06.03:814][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2020.09.15-05.06.03:815][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2020.09.15-05.06.03:816][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2020.09.15-05.06.03:817][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2020.09.15-05.06.03:818][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2020.09.15-05.06.03:818][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2020.09.15-05.06.03:818][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2020.09.15-05.06.03:819][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2020.09.15-05.06.03:820][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2020.09.15-05.06.03:821][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2020.09.15-05.06.03:822][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2020.09.15-05.06.03:823][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Water_M.uasset"
+[2020.09.15-05.06.03:825][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Water_N.uasset"
+[2020.09.15-05.06.03:828][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2020.09.15-05.06.03:829][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2020.09.15-05.06.03:831][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2020.09.15-05.06.03:834][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2020.09.15-05.06.03:837][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2020.09.15-05.06.03:842][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2020.09.15-05.06.03:844][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2020.09.15-05.06.03:847][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2020.09.15-05.06.03:849][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../ue4/BALL/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2020.09.15-05.06.03:891][  0]LogRenderer: Reallocating scene render targets to support 256x256 Format 10 NumSamples 1 (Frame:1).
+[2020.09.15-05.06.03:972][  0]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Architecture/Floor_400x400" FILE="../../../../ue4/BALL/Content/StarterContent/Architecture/Floor_400x400.uasset" SILENT=true
+[2020.09.15-05.06.03:979][  0]LogSavePackage: Moving '../../../../ue4/BALL/Saved/Floor_400x4004B21037B44031D30618866B0BF62152E.tmp' to '../../../../ue4/BALL/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2020.09.15-05.06.03:980][  0]LogFeaturePack: Warning: Inserted 1 feature packs
+[2020.09.15-05.06.03:981][  0]Cmd: MAP LOAD FILE="../../../../ue4/BALL/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.09.15-05.06.03:981][  0]LightingResults: New page: Lighting Build
+[2020.09.15-05.06.03:982][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.09.15-05.06.03:982][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.15-05.06.03:982][  0]MapCheck: New page: Map Check
+[2020.09.15-05.06.03:982][  0]LightingResults: New page: Lighting Build
+[2020.09.15-05.06.03:992][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000140CBE47C00), frame # 0
+[2020.09.15-05.06.03:992][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000140CBEFCA40), frame # 0
+[2020.09.15-05.06.03:993][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2020.09.15-05.06.04:533][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.09.15-05.06.04:533][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000140BA2F8800), frame # 0
+[2020.09.15-05.06.04:533][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000140BA345A80), frame # 0
+[2020.09.15-05.06.04:583][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.09.15-05.06.04:630][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2020.09.15-05.06.04:631][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.09.15-05.06.04:631][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.07ms to complete.
+[2020.09.15-05.06.04:631][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.650
+[2020.09.15-05.06.04:632][  0]LogUnrealEdMisc: Total Editor Startup Time, took 7.017
+[2020.09.15-05.06.04:749][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.15-05.06.04:754][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.15-05.06.04:760][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.15-05.06.04:766][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.15-05.06.04:772][  0]LogCollectionManager: Loaded 0 collections in 0.000637 seconds
+[2020.09.15-05.06.04:785][  0]LogFileCache: Scanning file cache for directory 'E:/ue4/BALL/Saved/Collections/' took 0.00s
+[2020.09.15-05.06.04:785][  0]LogFileCache: Scanning file cache for directory 'E:/ue4/BALL/Content/Developers/32808/Collections/' took 0.00s
+[2020.09.15-05.06.04:785][  0]LogFileCache: Scanning file cache for directory 'E:/ue4/BALL/Content/Collections/' took 0.00s
+[2020.09.15-05.06.04:785][  0]LogContentBrowser: Native class hierarchy populated in 0.0080 seconds. Added 3427 classes and 821 folders.
+[2020.09.15-05.06.04:787][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.09.15-05.06.04:846][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.09.15-05.06.04:847][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 0 folders.
+[2020.09.15-05.06.04:892][  0]LogSlate: Took 0.000207 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.09.15-05.06.04:893][  0]LogSlate: Took 0.000164 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.09.15-05.06.04:896][  0]LogSlate: Took 0.000166 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.09.15-05.06.04:925][  0]LogRenderer: Reallocating scene render targets to support 1404x836 Format 10 NumSamples 1 (Frame:1).
+[2020.09.15-05.06.06:306][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.09.15-05.06.06:306][  0]LogLoad: (Engine Initialization) Total time: 8.69 seconds
+[2020.09.15-05.06.06:306][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.09.15-05.06.06:318][  0]AssetCheck: New page: Asset Save: Floor_400x400
+[2020.09.15-05.06.06:318][  0]LogContentValidation: Display: Validating StaticMesh /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400
+[2020.09.15-05.06.06:338][  0]LogAssetRegistry: Asset discovery search completed in 5.2821 seconds
+[2020.09.15-05.06.06:341][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2020.09.15-05.06.09:447][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.09.15-05.06.27:892][ 27]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.15-05.06.27:896][ 27]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.15-05.06.27:897][ 27]PIE: New page: PIE session: Minimal_Default (Sep 14, 2020, 3:06:27 PM)
+[2020.09.15-05.06.27:925][ 27]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.09.15-05.06.27:926][ 27]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.09.15-05.06.27:926][ 27]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.09.15-05.06.27:929][ 27]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002792s)
+[2020.09.15-05.06.27:930][ 27]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.09.15-05.06.27:930][ 27]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000140D0E3FE00), frame # 1027
+[2020.09.15-05.06.27:930][ 27]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000140D0E47D80), frame # 1027
+[2020.09.15-05.06.27:930][ 27]LogPlayLevel: PIE: World Init took: (0.001053s)
+[2020.09.15-05.06.27:930][ 27]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003957s)
+[2020.09.15-05.06.27:941][ 27]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2020.09.15-05.06.27:942][ 27]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.15-05.06.27:942][ 27]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.15-05.06.27:942][ 27]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.15-05.06.27:942][ 27]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.15-05.06.27:942][ 27]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.15-05.06.27:942][ 27]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.15-05.06.27:942][ 27]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.15-05.06.27:942][ 27]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.15-05.06.27:942][ 27]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.15-05.06.27:942][ 27]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.15-05.06.27:956][ 27]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.15-05.06.27:956][ 27]LogAudioMixer: Display: 1: FrontRight
+[2020.09.15-05.06.27:986][ 27]LogAudioMixer: Display: Using Audio Device Dell S2716DG (2- NVIDIA High Definition Audio)
+[2020.09.15-05.06.27:986][ 27]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.09.15-05.06.27:986][ 27]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.09.15-05.06.27:986][ 27]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.09.15-05.06.27:986][ 27]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.09.15-05.06.27:999][ 27]LogInit: FAudioDevice initialized.
+[2020.09.15-05.06.28:012][ 27]LogLoad: Game class is 'GameModeBase'
+[2020.09.15-05.06.28:014][ 27]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2020.09.14-22.06.28
+[2020.09.15-05.06.28:014][ 27]LogWorld: Bringing up level for play took: 0.000616
+[2020.09.15-05.06.28:014][ 27]LogOnline: OSS: Creating online subsystem instance for: :Context_2
+[2020.09.15-05.06.28:017][ 27]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2020.09.15-05.06.28:029][ 27]PIE: Server logged in
+[2020.09.15-05.06.28:030][ 27]PIE: Play in editor total start time 0.134 seconds.
+[2020.09.15-05.06.30:456][156]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.15-05.06.30:456][156]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.09.15-05.06.30:457][156]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2020.09.15-05.06.30:457][156]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.15-05.06.30:461][156]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.09.15-05.06.30:462][156]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.15-05.06.30:487][156]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.15-05.06.30:488][156]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000140D0E47D80), frame # 1156
+[2020.09.15-05.06.30:488][156]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000140D0E3FE00), frame # 1156
+[2020.09.15-05.06.30:489][156]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2020.09.15-05.06.30:533][160]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2020.09.15-05.06.32:119][256]Cmd: DELETE
+[2020.09.15-05.06.32:120][256]Cmd: ACTOR DELETE
+[2020.09.15-05.06.32:130][256]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2020.09.15-05.06.32:131][256]LogEditorActor: Deleted 0 Actors (0.011 secs)
+[2020.09.15-05.06.40:788][775]Cmd: DELETE
+[2020.09.15-05.06.40:788][775]Cmd: ACTOR DELETE
+[2020.09.15-05.06.40:799][775]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2020.09.15-05.06.40:800][775]LogEditorActor: Deleted 0 Actors (0.012 secs)
+[2020.09.15-05.06.43:510][937]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.15-05.06.43:514][937]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.15-05.06.43:514][937]PIE: New page: PIE session: Minimal_Default (Sep 14, 2020, 3:06:43 PM)
+[2020.09.15-05.06.43:514][937]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.09.15-05.06.43:517][937]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002574s)
+[2020.09.15-05.06.43:517][937]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.09.15-05.06.43:517][937]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000140D0BC3C00), frame # 1937
+[2020.09.15-05.06.43:517][937]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000140B969DBC0), frame # 1937
+[2020.09.15-05.06.43:518][937]LogPlayLevel: PIE: World Init took: (0.000862s)
+[2020.09.15-05.06.43:518][937]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003524s)
+[2020.09.15-05.06.43:528][937]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2020.09.15-05.06.43:528][937]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.15-05.06.43:529][937]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.15-05.06.43:529][937]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.15-05.06.43:529][937]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.15-05.06.43:529][937]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.15-05.06.43:529][937]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.15-05.06.43:529][937]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.15-05.06.43:529][937]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.15-05.06.43:529][937]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.15-05.06.43:529][937]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.15-05.06.43:543][937]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.15-05.06.43:543][937]LogAudioMixer: Display: 1: FrontRight
+[2020.09.15-05.06.43:573][937]LogAudioMixer: Display: Using Audio Device Dell S2716DG (2- NVIDIA High Definition Audio)
+[2020.09.15-05.06.43:573][937]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.09.15-05.06.43:573][937]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.09.15-05.06.43:573][937]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.09.15-05.06.43:573][937]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.09.15-05.06.43:586][937]LogInit: FAudioDevice initialized.
+[2020.09.15-05.06.43:591][937]LogLoad: Game class is 'GameModeBase'
+[2020.09.15-05.06.43:593][937]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2020.09.14-22.06.43
+[2020.09.15-05.06.43:593][937]LogWorld: Bringing up level for play took: 0.000582
+[2020.09.15-05.06.43:593][937]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2020.09.15-05.06.43:594][937]PIE: Server logged in
+[2020.09.15-05.06.43:595][937]PIE: Play in editor total start time 0.082 seconds.
+[2020.09.15-05.06.44:617][997]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.15-05.06.44:617][997]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.09.15-05.06.44:617][997]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2020.09.15-05.06.44:617][997]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.15-05.06.44:624][997]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.09.15-05.06.44:625][997]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.15-05.06.44:637][997]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.15-05.06.44:652][997]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000140B969DBC0), frame # 1997
+[2020.09.15-05.06.44:652][997]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000140D0BC3C00), frame # 1997
+[2020.09.15-05.06.44:653][997]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2020.09.15-05.06.44:683][  0]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2020.09.15-05.06.46:284][ 97]Cmd: TRANSACTION UNDO
+[2020.09.15-05.06.46:284][ 97]LogEditorTransaction: Undo Delete Actors
+[2020.09.15-05.06.46:324][ 97]LogSlate: Took 0.000197 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.09.15-05.06.46:625][106]Cmd: TRANSACTION UNDO
+[2020.09.15-05.06.46:625][106]LogEditorTransaction: Undo Delete Actors
+[2020.09.15-05.06.47:937][180]Cmd: TRANSACTION UNDO
+[2020.09.15-05.06.47:937][180]LogEditorTransaction: Undo Clicking on Actors
+[2020.09.15-05.06.49:925][287]Cmd: DELETE
+[2020.09.15-05.06.49:925][287]Cmd: ACTOR DELETE
+[2020.09.15-05.06.49:926][287]LogEditorActor: Deleted Actor: AmbientSound
+[2020.09.15-05.06.49:936][287]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2020.09.15-05.06.49:938][287]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2020.09.15-05.06.50:843][342]Cmd: DELETE
+[2020.09.15-05.06.50:843][342]Cmd: ACTOR DELETE
+[2020.09.15-05.06.50:853][342]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2020.09.15-05.06.50:854][342]LogEditorActor: Deleted 0 Actors (0.011 secs)
+[2020.09.15-05.06.58:664][809]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/Engine/Actors/Types/index.html?utm_source=editor&utm_medium=docs&utm_campaign=rightclick_viewdoc
+[2020.09.15-05.07.33:373][292]Cmd: DELETE
+[2020.09.15-05.07.33:373][292]Cmd: ACTOR DELETE
+[2020.09.15-05.07.33:375][292]LogEditorActor: Deleted Actor: SphereReflectionCapture
+[2020.09.15-05.07.33:385][292]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2020.09.15-05.07.33:386][292]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2020.09.15-05.07.34:024][331]Cmd: DELETE
+[2020.09.15-05.07.34:024][331]Cmd: ACTOR DELETE
+[2020.09.15-05.07.34:034][331]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2020.09.15-05.07.34:035][331]LogEditorActor: Deleted 0 Actors (0.011 secs)
+[2020.09.15-05.07.37:849][559]Cmd: DELETE
+[2020.09.15-05.07.37:849][559]Cmd: ACTOR DELETE
+[2020.09.15-05.07.37:850][559]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.09.15-05.07.37:860][559]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2020.09.15-05.07.37:861][559]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2020.09.15-05.07.38:616][604]Cmd: DELETE
+[2020.09.15-05.07.38:616][604]Cmd: ACTOR DELETE
+[2020.09.15-05.07.38:617][604]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.09.15-05.07.38:627][604]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2020.09.15-05.07.38:628][604]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2020.09.15-05.07.44:981][984]Cmd: DELETE
+[2020.09.15-05.07.44:981][984]Cmd: ACTOR DELETE
+[2020.09.15-05.07.44:982][984]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.09.15-05.07.44:991][984]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2020.09.15-05.07.44:992][984]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2020.09.15-05.07.45:833][ 36]Cmd: DELETE
+[2020.09.15-05.07.45:834][ 36]Cmd: ACTOR DELETE
+[2020.09.15-05.07.45:834][ 36]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.09.15-05.07.45:844][ 36]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2020.09.15-05.07.45:845][ 36]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2020.09.15-05.07.48:387][188]Cmd: DELETE
+[2020.09.15-05.07.48:387][188]Cmd: ACTOR DELETE
+[2020.09.15-05.07.48:389][188]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.09.15-05.07.48:400][188]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2020.09.15-05.07.48:401][188]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2020.09.15-05.07.53:968][523]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.09.15-05.08.01:335][948]Cmd: TRANSACTION UNDO
+[2020.09.15-05.08.01:335][948]LogEditorTransaction: Undo Move Actors
+[2020.09.15-05.08.02:786][ 20]Cmd: TRANSACTION UNDO
+[2020.09.15-05.08.02:786][ 20]LogEditorTransaction: Undo Move Actors
+[2020.09.15-05.08.23:023][227]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/Minimal_Default" FILE="../../../../ue4/BALL/Content/StarterContent/Maps/Minimal_Default.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.09.15-05.08.23:034][227]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2020.09.15-05.08.23:050][227]LogSavePackage: Moving '../../../../ue4/BALL/Saved/Minimal_Default896D161946A995C743DBA2BA8862EA52.tmp' to '../../../../ue4/BALL/Content/StarterContent/Maps/Minimal_Default.umap'
+[2020.09.15-05.08.23:057][227]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/Minimal_Default_BuiltData" FILE="../../../../ue4/BALL/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" SILENT=true
+[2020.09.15-05.08.23:116][227]LogSavePackage: Moving '../../../../ue4/BALL/Saved/Minimal_Default_BuiltData8E27847044D2F1859DA05D90F0735A59.tmp' to '../../../../ue4/BALL/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2020.09.15-05.08.23:129][227]AssetCheck: New page: Asset Save: multiple assets
+[2020.09.15-05.08.23:129][227]LogContentValidation: Display: Validating World /Game/StarterContent/Maps/Minimal_Default.Minimal_Default
+[2020.09.15-05.08.23:129][227]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData
+[2020.09.15-05.08.28:260][532]Cmd: DELETE
+[2020.09.15-05.08.28:260][532]Cmd: ACTOR DELETE
+[2020.09.15-05.08.28:261][532]LogEditorActor: Deleted Actor: PostProcessVolume
+[2020.09.15-05.08.28:277][532]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2020.09.15-05.08.28:278][532]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2020.09.15-05.08.29:414][602]Cmd: DELETE
+[2020.09.15-05.08.29:414][602]Cmd: ACTOR DELETE
+[2020.09.15-05.08.29:424][602]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2020.09.15-05.08.29:425][602]LogEditorActor: Deleted 0 Actors (0.011 secs)
+[2020.09.15-05.08.30:248][651]Cmd: DELETE
+[2020.09.15-05.08.30:248][651]Cmd: ACTOR DELETE
+[2020.09.15-05.08.30:249][651]LogEditorActor: Deleted Actor: SphereReflectionCapture
+[2020.09.15-05.08.30:260][651]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2020.09.15-05.08.30:261][651]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2020.09.15-05.08.32:922][812]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2020.09.15-05.08.36:445][ 21]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.15-05.08.36:450][ 21]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.15-05.08.36:450][ 21]PIE: New page: PIE session: Minimal_Default (Sep 14, 2020, 3:08:36 PM)
+[2020.09.15-05.08.36:450][ 21]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.09.15-05.08.36:452][ 21]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001891s)
+[2020.09.15-05.08.36:453][ 21]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.09.15-05.08.36:453][ 21]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000140E9B1BE00), frame # 8021
+[2020.09.15-05.08.36:453][ 21]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000140D0DAD800), frame # 8021
+[2020.09.15-05.08.36:453][ 21]LogPlayLevel: PIE: World Init took: (0.000943s)
+[2020.09.15-05.08.36:453][ 21]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.002923s)
+[2020.09.15-05.08.36:463][ 21]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2020.09.15-05.08.36:465][ 21]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.15-05.08.36:465][ 21]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.15-05.08.36:465][ 21]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.15-05.08.36:465][ 21]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.15-05.08.36:465][ 21]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.15-05.08.36:465][ 21]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.15-05.08.36:465][ 21]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.15-05.08.36:465][ 21]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.15-05.08.36:465][ 21]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.15-05.08.36:465][ 21]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.15-05.08.36:480][ 21]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.15-05.08.36:480][ 21]LogAudioMixer: Display: 1: FrontRight
+[2020.09.15-05.08.36:512][ 21]LogAudioMixer: Display: Using Audio Device Dell S2716DG (2- NVIDIA High Definition Audio)
+[2020.09.15-05.08.36:512][ 21]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.09.15-05.08.36:512][ 21]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.09.15-05.08.36:512][ 21]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.09.15-05.08.36:512][ 21]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.09.15-05.08.36:525][ 21]LogInit: FAudioDevice initialized.
+[2020.09.15-05.08.36:532][ 21]LogLoad: Game class is 'GameModeBase'
+[2020.09.15-05.08.36:532][ 21]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2020.09.14-22.08.36
+[2020.09.15-05.08.36:532][ 21]LogWorld: Bringing up level for play took: 0.000531
+[2020.09.15-05.08.36:532][ 21]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2020.09.15-05.08.36:535][ 21]PIE: Server logged in
+[2020.09.15-05.08.36:535][ 21]PIE: Play in editor total start time 0.087 seconds.
+[2020.09.15-05.08.41:604][324]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.15-05.08.41:604][324]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.09.15-05.08.41:605][324]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2020.09.15-05.08.41:605][324]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.15-05.08.41:610][324]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.09.15-05.08.41:612][324]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.15-05.08.41:622][324]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.15-05.08.41:638][324]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000140D0DAD800), frame # 8324
+[2020.09.15-05.08.41:638][324]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000140E9B1BE00), frame # 8324
+[2020.09.15-05.08.41:639][324]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2020.09.15-05.08.41:687][326]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2020.09.15-05.08.46:068][591]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2020.09.15-05.08.46:987][645]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor3)
+[2020.09.15-05.08.49:025][764]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor4)
+[2020.09.15-05.08.50:176][831]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor2)
+[2020.09.15-05.08.50:728][863]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor3)
+[2020.09.15-05.09.07:199][846]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor5)
+[2020.09.15-05.09.08:502][923]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor7)
+[2020.09.15-05.09.09:035][954]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor8)
+[2020.09.15-05.09.09:420][976]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor6)
+[2020.09.15-05.09.17:939][485]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor11)
+[2020.09.15-05.09.19:676][588]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor10)
+[2020.09.15-05.09.19:993][606]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor9)
+[2020.09.15-05.09.20:511][636]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor12)
+[2020.09.15-05.09.38:433][706]Cmd: DELETE
+[2020.09.15-05.09.38:433][706]Cmd: ACTOR DELETE
+[2020.09.15-05.09.38:435][706]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.09.15-05.09.38:435][706]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.09.15-05.09.38:435][706]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.09.15-05.09.38:435][706]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.09.15-05.09.38:435][706]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.09.15-05.09.38:436][706]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.09.15-05.09.38:436][706]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.09.15-05.09.38:436][706]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.09.15-05.09.38:436][706]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.09.15-05.09.38:436][706]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.09.15-05.09.38:436][706]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.09.15-05.09.38:437][706]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.09.15-05.09.38:437][706]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.09.15-05.09.38:437][706]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.09.15-05.09.38:437][706]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.09.15-05.09.38:437][706]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.09.15-05.09.38:447][706]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2020.09.15-05.09.38:450][706]LogEditorActor: Deleted 16 Actors (0.017 secs)
+[2020.09.15-05.09.40:908][853]LogActorFactory: Actor Factory created Plane
+[2020.09.15-05.09.41:428][883]LogActorFactory: Actor Factory created Plane
+[2020.09.15-05.10.28:345][690]LogPhysics: Warning: Scale for /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Plane_18.StaticMeshComponent0 has a component set to zero, which will result in a bad body instance. Scale:X=20.000 Y=20.000 Z=0.000
+[2020.09.15-05.10.28:345][690]LogPhysics: Warning: Scale for /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Plane_18.StaticMeshComponent0 has a component set to zero, which will result in a bad body instance. Scale:X=20.000 Y=20.000 Z=0.000
+[2020.09.15-05.10.38:335][290]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2020.09.15-05.10.42:210][522]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.09.15-05.10.43:845][619]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.15-05.10.43:850][619]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.15-05.10.43:850][619]PIE: New page: PIE session: Minimal_Default (Sep 14, 2020, 3:10:43 PM)
+[2020.09.15-05.10.43:850][619]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.09.15-05.10.43:852][619]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001746s)
+[2020.09.15-05.10.43:852][619]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.09.15-05.10.43:852][619]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000140CFD67000), frame # 15619
+[2020.09.15-05.10.43:852][619]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000140E10D9A80), frame # 15619
+[2020.09.15-05.10.43:852][619]LogPlayLevel: PIE: World Init took: (0.000872s)
+[2020.09.15-05.10.43:852][619]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.002709s)
+[2020.09.15-05.10.43:866][619]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2020.09.15-05.10.43:868][619]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.15-05.10.43:869][619]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.15-05.10.43:869][619]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.15-05.10.43:869][619]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.15-05.10.43:869][619]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.15-05.10.43:869][619]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.15-05.10.43:869][619]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.15-05.10.43:869][619]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.15-05.10.43:869][619]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.15-05.10.43:869][619]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.15-05.10.43:884][619]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.15-05.10.43:884][619]LogAudioMixer: Display: 1: FrontRight
+[2020.09.15-05.10.43:915][619]LogAudioMixer: Display: Using Audio Device Dell S2716DG (2- NVIDIA High Definition Audio)
+[2020.09.15-05.10.43:915][619]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.09.15-05.10.43:915][619]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.09.15-05.10.43:916][619]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.09.15-05.10.43:916][619]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.09.15-05.10.43:929][619]LogInit: FAudioDevice initialized.
+[2020.09.15-05.10.43:936][619]LogLoad: Game class is 'GameModeBase'
+[2020.09.15-05.10.43:937][619]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2020.09.14-22.10.43
+[2020.09.15-05.10.43:937][619]LogWorld: Bringing up level for play took: 0.000384
+[2020.09.15-05.10.43:938][619]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2020.09.15-05.10.43:939][619]PIE: Server logged in
+[2020.09.15-05.10.43:940][619]PIE: Play in editor total start time 0.091 seconds.
+[2020.09.15-05.10.47:682][842]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.15-05.10.47:682][842]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.09.15-05.10.47:682][842]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2020.09.15-05.10.47:682][842]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.15-05.10.47:687][842]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.09.15-05.10.47:688][842]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.15-05.10.47:713][842]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.15-05.10.47:714][842]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000140E10D9A80), frame # 15842
+[2020.09.15-05.10.47:714][842]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000140CFD67000), frame # 15842
+[2020.09.15-05.10.47:715][842]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2020.09.15-05.10.47:752][844]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2020.09.15-05.11.20:411][801]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.09.15-05.12.30:994][364]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 E:\ue4\Assets\animated-characters-2\Model/characterMedium.fbx)
+[2020.09.15-05.12.31:024][364]LogFbx: Loading FBX Scene from E:\ue4\Assets\animated-characters-2\Model/characterMedium.fbx
+[2020.09.15-05.12.31:040][364]LogFbx: FBX Scene Loaded Succesfully
+[2020.09.15-05.12.44:670][364]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.09.15-05.12.44:844][364]LogMaterial: Display: Missing cached shader map for material skin, compiling. 
+[2020.09.15-05.12.44:881][364]LogFbx: Display: Triangulating static mesh characterMedium
+[2020.09.15-05.12.44:935][364]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 15
+[2020.09.15-05.12.44:935][364]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 11
+[2020.09.15-05.12.44:935][364]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 7
+[2020.09.15-05.12.44:935][364]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2020.09.15-05.12.44:937][364]LogStaticMesh: Building static mesh characterMedium...
+[2020.09.15-05.12.44:956][364]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/Character/Model/characterMedium.characterMedium
+[2020.09.15-05.12.45:168][364]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.09.15-05.12.45:230][364]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 E:\ue4\Assets\animated-characters-2\Skins/criminalMaleA.png)
+[2020.09.15-05.12.45:242][364]LogTexture: Display: Building textures: criminalMaleA (AutoDXT, 1024X1024)
+[2020.09.15-05.12.45:278][364]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 E:\ue4\Assets\animated-characters-2\Skins/cyborgFemaleA.png)
+[2020.09.15-05.12.45:293][364]LogTexture: Display: Building textures: cyborgFemaleA (AutoDXT, 1024X1024)
+[2020.09.15-05.12.45:328][364]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 E:\ue4\Assets\animated-characters-2\Skins/skaterFemaleA.png)
+[2020.09.15-05.12.45:340][364]LogTexture: Display: Building textures: skaterFemaleA (AutoDXT, 1024X1024)
+[2020.09.15-05.12.45:375][364]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 E:\ue4\Assets\animated-characters-2\Skins/skaterMaleA.png)
+[2020.09.15-05.12.45:389][364]LogTexture: Display: Building textures: skaterMaleA (AutoDXT, 1024X1024)
+[2020.09.15-05.12.45:423][364]LogAssetTools: Warning: Failed to import 'E:\ue4\Assets\animated-characters-2\Skins/Source/criminalMaleA.svg'. Unknown extension 'svg'.
+[2020.09.15-05.12.45:426][364]LogAssetTools: Warning: Failed to import 'E:\ue4\Assets\animated-characters-2\Skins/Source/cyborgFemaleA.svg'. Unknown extension 'svg'.
+[2020.09.15-05.12.45:428][364]LogAssetTools: Warning: Failed to import 'E:\ue4\Assets\animated-characters-2\Skins/Source/skaterFemaleA.svg'. Unknown extension 'svg'.
+[2020.09.15-05.12.45:430][364]LogAssetTools: Warning: Failed to import 'E:\ue4\Assets\animated-characters-2\Skins/Source/skaterMaleA.svg'. Unknown extension 'svg'.
+[2020.09.15-05.12.45:432][364]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 E:\ue4\Assets\animated-characters-2\Animations/idle.fbx)
+[2020.09.15-05.12.45:974][364]LogFbx: Loading FBX Scene from E:\ue4\Assets\animated-characters-2\Animations/idle.fbx
+[2020.09.15-05.12.46:013][364]LogFbx: FBX Scene Loaded Succesfully
+[2020.09.15-05.12.48:526][364]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.09.15-05.12.48:574][364]FBXImport: Error: Could not find any node. 
+[2020.09.15-05.12.48:574][364]FBXImport: Error: Import failed. 
+[2020.09.15-05.12.50:128][364]LogSlate: Window 'Message' being destroyed
+[2020.09.15-05.12.50:132][364]Message dialog closed, result: Ok, title: Message, text: Failed to import 'E:\ue4\Assets\animated-characters-2\Animations/idle.fbx'. Failed to create asset '/Game/Assets/Character/Animations/idle'.
+Please see Output Log for details.
+[2020.09.15-05.12.50:132][364]LogAssetTools: Warning: Failed to import 'E:\ue4\Assets\animated-characters-2\Animations/idle.fbx'. Failed to create asset '/Game/Assets/Character/Animations/idle'.
+Please see Output Log for details.
+[2020.09.15-05.12.50:135][364]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 E:\ue4\Assets\animated-characters-2\Animations/jump.fbx)
+[2020.09.15-05.12.50:199][364]LogFbx: Loading FBX Scene from E:\ue4\Assets\animated-characters-2\Animations/jump.fbx
+[2020.09.15-05.12.50:234][364]LogFbx: FBX Scene Loaded Succesfully
+[2020.09.15-05.12.50:241][364]FBXImport: Error: Could not find any node. 
+[2020.09.15-05.12.50:242][364]FBXImport: Error: Import failed. 
+[2020.09.15-05.12.50:845][364]LogSlate: Window 'Message' being destroyed
+[2020.09.15-05.12.50:849][364]Message dialog closed, result: Ok, title: Message, text: Failed to import 'E:\ue4\Assets\animated-characters-2\Animations/jump.fbx'. Failed to create asset '/Game/Assets/Character/Animations/jump'.
+Please see Output Log for details.
+[2020.09.15-05.12.50:849][364]LogAssetTools: Warning: Failed to import 'E:\ue4\Assets\animated-characters-2\Animations/jump.fbx'. Failed to create asset '/Game/Assets/Character/Animations/jump'.
+Please see Output Log for details.
+[2020.09.15-05.12.50:851][364]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 E:\ue4\Assets\animated-characters-2\Animations/run.fbx)
+[2020.09.15-05.12.50:861][364]LogFbx: Loading FBX Scene from E:\ue4\Assets\animated-characters-2\Animations/run.fbx
+[2020.09.15-05.12.50:896][364]LogFbx: FBX Scene Loaded Succesfully
+[2020.09.15-05.12.50:904][364]FBXImport: Error: Could not find any node. 
+[2020.09.15-05.12.50:904][364]FBXImport: Error: Import failed. 
+[2020.09.15-05.12.51:438][364]LogSlate: Window 'Message' being destroyed
+[2020.09.15-05.12.51:442][364]Message dialog closed, result: Ok, title: Message, text: Failed to import 'E:\ue4\Assets\animated-characters-2\Animations/run.fbx'. Failed to create asset '/Game/Assets/Character/Animations/run'.
+Please see Output Log for details.
+[2020.09.15-05.12.51:442][364]LogAssetTools: Warning: Failed to import 'E:\ue4\Assets\animated-characters-2\Animations/run.fbx'. Failed to create asset '/Game/Assets/Character/Animations/run'.
+Please see Output Log for details.
+[2020.09.15-05.12.51:471][364]LogSlate: Took 0.000107 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.09.15-05.12.53:685][497]LogSlate: Window 'Message Log' being destroyed
+[2020.09.15-05.12.53:706][497]LogSlate: Window 'Message Log' being destroyed
+[2020.09.15-05.13.02:082][996]LogActorFactory: Actor Factory created characterMedium
+[2020.09.15-05.13.03:229][ 64]LogActorFactory: Actor Factory created characterMedium
+[2020.09.15-05.13.08:869][402]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.15-05.13.08:874][402]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.15-05.13.08:874][402]PIE: New page: PIE session: Minimal_Default (Sep 14, 2020, 3:13:08 PM)
+[2020.09.15-05.13.08:874][402]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.09.15-05.13.08:876][402]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001776s)
+[2020.09.15-05.13.08:877][402]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.09.15-05.13.08:877][402]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000140CFBB3000), frame # 21402
+[2020.09.15-05.13.08:877][402]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000140E0B3E200), frame # 21402
+[2020.09.15-05.13.08:877][402]LogPlayLevel: PIE: World Init took: (0.000934s)
+[2020.09.15-05.13.08:877][402]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.002795s)
+[2020.09.15-05.13.08:891][402]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2020.09.15-05.13.08:894][402]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.15-05.13.08:894][402]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.15-05.13.08:894][402]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.15-05.13.08:894][402]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.15-05.13.08:894][402]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.15-05.13.08:894][402]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.15-05.13.08:894][402]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.15-05.13.08:894][402]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.15-05.13.08:894][402]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.15-05.13.08:894][402]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.15-05.13.08:908][402]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.15-05.13.08:908][402]LogAudioMixer: Display: 1: FrontRight
+[2020.09.15-05.13.08:939][402]LogAudioMixer: Display: Using Audio Device Dell S2716DG (2- NVIDIA High Definition Audio)
+[2020.09.15-05.13.08:939][402]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.09.15-05.13.08:940][402]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.09.15-05.13.08:940][402]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.09.15-05.13.08:940][402]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.09.15-05.13.08:940][402]LogInit: FAudioDevice initialized.
+[2020.09.15-05.13.08:958][402]LogLoad: Game class is 'GameModeBase'
+[2020.09.15-05.13.08:959][402]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2020.09.14-22.13.08
+[2020.09.15-05.13.08:959][402]LogWorld: Bringing up level for play took: 0.000416
+[2020.09.15-05.13.08:959][402]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2020.09.15-05.13.08:961][402]PIE: Server logged in
+[2020.09.15-05.13.08:962][402]PIE: Play in editor total start time 0.089 seconds.
+[2020.09.15-05.13.10:199][475]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.15-05.13.10:199][475]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.09.15-05.13.10:199][475]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2020.09.15-05.13.10:199][475]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.15-05.13.10:210][475]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.09.15-05.13.10:211][475]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.15-05.13.10:239][475]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.15-05.13.10:240][475]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000140CFBB3000), frame # 21475
+[2020.09.15-05.13.10:240][475]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000140E0B3E200), frame # 21475
+[2020.09.15-05.13.10:241][475]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2020.09.15-05.13.10:275][477]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2020.09.15-05.13.10:974][521]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (characterMedium)
+[2020.09.15-05.13.16:587][856]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2020.09.15-05.13.18:208][953]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.09.15-05.13.19:895][ 54]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.09.15-05.13.20:545][ 93]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (characterMedium)
+[2020.09.15-05.13.24:737][343]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.15-05.13.24:742][343]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.15-05.13.24:742][343]PIE: New page: PIE session: Minimal_Default (Sep 14, 2020, 3:13:24 PM)
+[2020.09.15-05.13.24:742][343]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.09.15-05.13.24:744][343]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001697s)
+[2020.09.15-05.13.24:744][343]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.09.15-05.13.24:744][343]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000140FB27F800), frame # 22343
+[2020.09.15-05.13.24:744][343]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000140EA271440), frame # 22343
+[2020.09.15-05.13.24:745][343]LogPlayLevel: PIE: World Init took: (0.000865s)
+[2020.09.15-05.13.24:745][343]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.002647s)
+[2020.09.15-05.13.24:755][343]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2020.09.15-05.13.24:756][343]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.15-05.13.24:757][343]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.15-05.13.24:757][343]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.15-05.13.24:757][343]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.15-05.13.24:757][343]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.15-05.13.24:757][343]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.15-05.13.24:757][343]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.15-05.13.24:757][343]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.15-05.13.24:757][343]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.15-05.13.24:757][343]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.15-05.13.24:771][343]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.15-05.13.24:771][343]LogAudioMixer: Display: 1: FrontRight
+[2020.09.15-05.13.24:801][343]LogAudioMixer: Display: Using Audio Device Dell S2716DG (2- NVIDIA High Definition Audio)
+[2020.09.15-05.13.24:801][343]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.09.15-05.13.24:801][343]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.09.15-05.13.24:801][343]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.09.15-05.13.24:801][343]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.09.15-05.13.24:816][343]LogInit: FAudioDevice initialized.
+[2020.09.15-05.13.24:822][343]LogLoad: Game class is 'GameModeBase'
+[2020.09.15-05.13.24:824][343]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2020.09.14-22.13.24
+[2020.09.15-05.13.24:824][343]LogWorld: Bringing up level for play took: 0.000414
+[2020.09.15-05.13.24:824][343]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2020.09.15-05.13.24:825][343]PIE: Server logged in
+[2020.09.15-05.13.24:826][343]PIE: Play in editor total start time 0.085 seconds.
+[2020.09.15-05.13.26:609][448]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.15-05.13.26:609][448]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.09.15-05.13.26:609][448]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2020.09.15-05.13.26:609][448]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.15-05.13.26:615][448]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.09.15-05.13.26:616][448]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.15-05.13.26:627][448]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.15-05.13.26:644][448]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000140EA271440), frame # 22448
+[2020.09.15-05.13.26:644][448]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000140FB27F800), frame # 22448
+[2020.09.15-05.13.26:645][448]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2020.09.15-05.13.26:682][452]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2020.09.15-05.13.31:236][725]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2020.09.15-05.13.31:738][754]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2020.09.15-05.13.33:625][867]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.09.15-05.13.37:116][ 76]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.09.15-05.13.39:772][235]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.09.15-05.13.41:675][348]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2020.09.15-05.13.42:077][372]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2020.09.15-05.13.55:511][170]LogMaterial: Display: Missing cached shader map for material criminalMaleA_Mat, compiling. 
+[2020.09.15-05.13.55:521][170]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 15
+[2020.09.15-05.13.55:521][170]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 11
+[2020.09.15-05.13.55:521][170]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 7
+[2020.09.15-05.13.55:521][170]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2020.09.15-05.14.14:825][308]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2020.09.15-05.14.16:528][308]LogSlate: Window 'Delete Assets' being destroyed
+[2020.09.15-05.14.16:918][308]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Assets/Character/Skins/criminalMaleA_Mat.criminalMaleA_Mat
+[2020.09.15-05.14.17:418][308]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2020.09.15-05.14.25:548][786]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Assets/Character/Model/skin.skin
+[2020.09.15-05.14.25:589][786]LogMaterial: Display: Missing cached shader map for material skin, compiling. 
+[2020.09.15-05.14.26:309][786]LogMaterial: Display: Missing cached shader map for material skin, compiling. 
+[2020.09.15-05.14.26:321][786]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 9
+[2020.09.15-05.14.26:321][786]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 8
+[2020.09.15-05.14.26:321][786]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 7
+[2020.09.15-05.14.26:321][786]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 6
+[2020.09.15-05.14.26:325][786]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2020.09.15-05.14.26:365][786]LogSlate: Took 0.000171 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.09.15-05.14.26:556][787]LogSlate: Took 0.000231 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.09.15-05.14.26:753][799]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 9
+[2020.09.15-05.14.26:852][805]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 8
+[2020.09.15-05.14.26:903][808]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 7
+[2020.09.15-05.14.26:920][809]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 6
+[2020.09.15-05.14.27:142][822]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 5
+[2020.09.15-05.14.27:257][829]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 4
+[2020.09.15-05.14.27:373][836]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2020.09.15-05.14.27:377][836]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2020.09.15-05.14.27:427][839]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2020.09.15-05.14.27:445][840]MaterialEditorStats: Base pass shader: 119 instructions
+[2020.09.15-05.14.27:445][840]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2020.09.15-05.14.27:445][840]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.09.15-05.14.27:445][840]MaterialEditorStats: Texture samplers: 2/16
+[2020.09.15-05.14.41:673][662]LogSlate: Window 'skin' being destroyed
+[2020.09.15-05.14.41:682][662]LogSlate: Window 'skin' being destroyed
+[2020.09.15-05.14.41:708][662]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2020.09.15-05.14.41:708][662]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.15-05.14.48:142][996]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2020.09.15-05.14.49:340][996]LogSlate: Window 'Delete Assets' being destroyed
+[2020.09.15-05.14.49:788][996]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Assets/Character/Model/skin.skin
+[2020.09.15-05.14.49:966][996]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2020.09.15-05.14.53:626][214]LogMaterial: Display: Missing cached shader map for material criminalMaleA_Mat, compiling. 
+[2020.09.15-05.14.53:673][215]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 15
+[2020.09.15-05.14.53:673][215]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 11
+[2020.09.15-05.14.53:673][215]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 7
+[2020.09.15-05.14.53:673][215]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2020.09.15-05.15.13:025][345]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Character/Mat/criminalMaleA_Mat" FILE="../../../../ue4/BALL/Content/Assets/Character/Mat/criminalMaleA_Mat.uasset" SILENT=true
+[2020.09.15-05.15.13:031][345]LogSavePackage: Moving '../../../../ue4/BALL/Saved/criminalMaleA_MatD496495544803C2FB108EBA6936B9AB0.tmp' to '../../../../ue4/BALL/Content/Assets/Character/Mat/criminalMaleA_Mat.uasset'
+[2020.09.15-05.15.13:144][345]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2020.09.15-05.15.13:161][345]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2020.09.15-05.15.13:171][345]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2020.09.15-05.15.13:188][345]AssetCheck: New page: Asset Save: criminalMaleA_Mat
+[2020.09.15-05.15.13:188][345]LogContentValidation: Display: Validating Material /Game/Assets/Character/Mat/criminalMaleA_Mat.criminalMaleA_Mat
+[2020.09.15-05.15.15:453][481]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (characterMedium)
+[2020.09.15-05.16.15:119][  7]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane)
+[2020.09.15-05.16.16:087][ 64]LogEditorViewport: Clicking on Actor (LMB): Character (Character)
+[2020.09.15-05.16.55:460][373]LogEditorViewport: Clicking on Actor (LMB): Character (Character)
+[2020.09.15-05.17.01:738][748]Cmd: DELETE
+[2020.09.15-05.17.01:738][748]Cmd: ACTOR DELETE
+[2020.09.15-05.17.01:739][748]LogEditorActor: Deleted Actor: Character
+[2020.09.15-05.17.01:756][748]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2020.09.15-05.17.01:758][748]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2020.09.15-05.17.02:707][807]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (characterMedium)
+[2020.09.15-05.18.35:480][771]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2020.09.15-05.18.35:494][771]LogSavePackage: Moving '../../../../ue4/BALL/Saved/Minimal_Default_Auto1089CCC43454D0705DFDE8296F5DF5B47.tmp' to '../../../../ue4/BALL/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap'
+[2020.09.15-05.18.35:495][771]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.024
+[2020.09.15-05.18.35:495][771]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.024
+[2020.09.15-05.18.35:495][771]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Character/Model/characterMedium] ([1] browsable assets)...
+[2020.09.15-05.18.35:512][771]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Character/Model/characterMedium.characterMedium]
+[2020.09.15-05.18.35:512][771]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Character/Model/characterMedium]
+[2020.09.15-05.18.35:523][771]LogSavePackage: Moving '../../../../ue4/BALL/Saved/characterMedium_Auto135692091455524D2FFBEBABF46AEF480.tmp' to '../../../../ue4/BALL/Saved/Autosaves/Game/Assets/Character/Model/characterMedium_Auto1.uasset'
+[2020.09.15-05.18.35:523][771]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Character/Skins/criminalMaleA] ([1] browsable assets)...
+[2020.09.15-05.18.35:530][771]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Assets/Character/Skins/criminalMaleA.criminalMaleA]
+[2020.09.15-05.18.35:530][771]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Character/Skins/criminalMaleA]
+[2020.09.15-05.18.35:530][771]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Character/Skins/criminalMaleA" FILE="../../../../ue4/BALL/Saved/Autosaves/Game/Assets/Character/Skins/criminalMaleA_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2020.09.15-05.18.35:533][771]LogSavePackage: Moving '../../../../ue4/BALL/Saved/criminalMaleA_Auto11592A3DE40365AAB8252D1B31046E2E5.tmp' to '../../../../ue4/BALL/Saved/Autosaves/Game/Assets/Character/Skins/criminalMaleA_Auto1.uasset'
+[2020.09.15-05.18.35:534][771]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Character/Skins/cyborgFemaleA] ([1] browsable assets)...
+[2020.09.15-05.18.35:540][771]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Assets/Character/Skins/cyborgFemaleA.cyborgFemaleA]
+[2020.09.15-05.18.35:540][771]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Character/Skins/cyborgFemaleA]
+[2020.09.15-05.18.35:540][771]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Character/Skins/cyborgFemaleA" FILE="../../../../ue4/BALL/Saved/Autosaves/Game/Assets/Character/Skins/cyborgFemaleA_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2020.09.15-05.18.35:543][771]LogSavePackage: Moving '../../../../ue4/BALL/Saved/cyborgFemaleA_Auto110A5D1254609F070EFB3B7BAE00F26D9.tmp' to '../../../../ue4/BALL/Saved/Autosaves/Game/Assets/Character/Skins/cyborgFemaleA_Auto1.uasset'
+[2020.09.15-05.18.35:544][771]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Character/Skins/skaterFemaleA] ([1] browsable assets)...
+[2020.09.15-05.18.35:550][771]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Assets/Character/Skins/skaterFemaleA.skaterFemaleA]
+[2020.09.15-05.18.35:550][771]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Character/Skins/skaterFemaleA]
+[2020.09.15-05.18.35:550][771]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Character/Skins/skaterFemaleA" FILE="../../../../ue4/BALL/Saved/Autosaves/Game/Assets/Character/Skins/skaterFemaleA_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2020.09.15-05.18.35:553][771]LogSavePackage: Moving '../../../../ue4/BALL/Saved/skaterFemaleA_Auto1CEAF63924E5478766894CD8A1CA25F0F.tmp' to '../../../../ue4/BALL/Saved/Autosaves/Game/Assets/Character/Skins/skaterFemaleA_Auto1.uasset'
+[2020.09.15-05.18.35:554][771]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Character/Skins/skaterMaleA] ([1] browsable assets)...
+[2020.09.15-05.18.35:560][771]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Assets/Character/Skins/skaterMaleA.skaterMaleA]
+[2020.09.15-05.18.35:560][771]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Character/Skins/skaterMaleA]
+[2020.09.15-05.18.35:560][771]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Character/Skins/skaterMaleA" FILE="../../../../ue4/BALL/Saved/Autosaves/Game/Assets/Character/Skins/skaterMaleA_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2020.09.15-05.18.35:564][771]LogSavePackage: Moving '../../../../ue4/BALL/Saved/skaterMaleA_Auto16FAD2811414319F069BE968D5CAA86F8.tmp' to '../../../../ue4/BALL/Saved/Autosaves/Game/Assets/Character/Skins/skaterMaleA_Auto1.uasset'
+[2020.09.15-05.18.35:564][771]LogFileHelpers: Auto-saving content packages took 0.070
+[2020.09.15-05.19.43:167][296]LogSlate: Window 'Pick Parent Class' being destroyed
+[2020.09.15-05.20.05:146][605]EditorErrors: New page: Actor attachment
+[2020.09.15-05.20.12:411][ 40]Cmd: DELETE
+[2020.09.15-05.20.12:412][ 40]Cmd: ACTOR DELETE
+[2020.09.15-05.20.12:413][ 40]LogEditorActor: Deleted Actor: Player_C
+[2020.09.15-05.20.12:429][ 40]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2020.09.15-05.20.12:431][ 40]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2020.09.15-05.21.39:715][766]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Player.Player
+[2020.09.15-05.21.40:118][766]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 125 classes and 0 folders.
+[2020.09.15-05.21.56:310][591]LogSlate: Window 'Player' being destroyed
+[2020.09.15-05.21.56:332][591]LogSlate: Window 'Player' being destroyed
+[2020.09.15-05.21.56:336][591]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.09.15-05.21.56:336][591]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.15-05.21.59:820][796]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2020.09.15-05.21.59:892][797]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2020.09.15-05.22.01:190][874]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2020.09.15-05.22.01:626][900]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2020.09.15-05.22.01:676][902]LogEditorViewport: Clicking on Actor (double click): StaticMeshActor (Plane)
+[2020.09.15-05.22.02:242][934]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2020.09.15-05.22.06:654][196]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Player.Player
+[2020.09.15-05.22.06:948][196]LogTabManager: Warning: Cannot spawn tab because no spawner is registered for 'CompilerResults'
+[2020.09.15-05.22.06:972][196]LogSlate: The tab "CompilerResults" attempted to spawn but failed for some reason. An "unrecognized tab" will be returned instead.
+[2020.09.15-05.22.12:364][438]LogSlate: Window 'CompilerResults' being destroyed
+[2020.09.15-05.22.12:382][438]LogSlate: Window 'CompilerResults' being destroyed
+[2020.09.15-05.22.12:382][438]LogSlate: Window 'Player' being destroyed
+[2020.09.15-05.22.12:386][438]LogSlate: Window 'Player' being destroyed
+[2020.09.15-05.22.12:390][438]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.09.15-05.22.12:390][438]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.15-05.22.19:201][843]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Player.Player
+[2020.09.15-05.22.19:534][843]LogSlate: The tab "CompilerResults" attempted to spawn but failed for some reason. An "unrecognized tab" will be returned instead.
+[2020.09.15-05.22.19:538][843]LogTabManager: Warning: Cannot spawn tab because no spawner is registered for 'CompilerResults'
+[2020.09.15-05.22.19:538][843]LogSlate: The tab "CompilerResults" attempted to spawn but failed for some reason. An "unrecognized tab" will be returned instead.
+[2020.09.15-05.22.21:758][975]LogSlate: Window 'CompilerResults' being destroyed
+[2020.09.15-05.22.21:772][975]LogSlate: Window 'CompilerResults' being destroyed
+[2020.09.15-05.22.34:913][763]LogSlate: Window 'Player' being destroyed
+[2020.09.15-05.22.34:936][763]LogSlate: Window 'Player' being destroyed
+[2020.09.15-05.22.34:937][763]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.09.15-05.22.34:937][763]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.15-05.22.36:551][860]Cmd: DELETE
+[2020.09.15-05.22.36:551][860]Cmd: ACTOR DELETE
+[2020.09.15-05.22.36:552][860]LogEditorActor: Deleted Actor: Player_C
+[2020.09.15-05.22.36:589][860]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2020.09.15-05.22.36:592][860]LogEditorActor: Deleted 1 Actors (0.040 secs)
+[2020.09.15-05.22.37:659][923]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Player.Player
+[2020.09.15-05.22.37:941][923]LogTabManager: Warning: Cannot spawn tab because no spawner is registered for 'CompilerResults'
+[2020.09.15-05.22.37:990][923]LogSlate: The tab "CompilerResults" attempted to spawn but failed for some reason. An "unrecognized tab" will be returned instead.
+[2020.09.15-05.22.43:499][244]LogSlate: Window 'CompilerResults' being destroyed
+[2020.09.15-05.22.46:005][394]LogSlate: Window 'Player' being destroyed
+[2020.09.15-05.22.46:028][394]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2020.09.15-05.22.46:028][394]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.15-05.22.46:075][394]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Player.Player
+[2020.09.15-05.24.19:262][203]LogSlate: Window 'Player' being destroyed
+[2020.09.15-05.24.19:285][203]LogSlate: Window 'Player' being destroyed
+[2020.09.15-05.24.19:289][203]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2020.09.15-05.24.19:289][203]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.15-05.24.22:186][377]Cmd: DELETE
+[2020.09.15-05.24.22:186][377]Cmd: ACTOR DELETE
+[2020.09.15-05.24.22:187][377]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.09.15-05.24.22:222][377]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2020.09.15-05.24.22:224][377]LogEditorActor: Deleted 1 Actors (0.038 secs)
+[2020.09.15-05.24.36:151][209]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2020.09.15-05.24.37:277][209]LogSlate: Window 'Delete Assets' being destroyed
+[2020.09.15-05.24.37:562][209]LogUObjectGlobals: Force Deleting 6 Package(s):
+	Asset Name: /Game/Assets/Character/Skins/skaterMaleA.skaterMaleA
+	Asset Name: /Game/Assets/Character/Skins/skaterFemaleA.skaterFemaleA
+	Asset Name: /Game/Assets/Character/Skins/cyborgFemaleA.cyborgFemaleA
+	Asset Name: /Game/Assets/Character/Skins/criminalMaleA.criminalMaleA
+	Asset Name: /Game/Assets/Character/Mat/criminalMaleA_Mat.criminalMaleA_Mat
+	Asset Name: /Game/Assets/Character/Model/characterMedium.characterMedium
+[2020.09.15-05.24.37:699][209]LogMaterial: Display: Missing cached shader map for material criminalMaleA_Mat, compiling. 
+[2020.09.15-05.24.37:708][209]LogMaterial: Warning: E:\ue4\BALL\Content\Assets\Character\Mat\criminalMaleA_Mat.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2020.09.15-05.24.37:708][209]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
+[2020.09.15-05.24.37:709][209]LogMaterial: Display: Missing cached shader map for material criminalMaleA_Mat, compiling. 
+[2020.09.15-05.24.37:709][209]LogMaterial: Warning: E:\ue4\BALL\Content\Assets\Character\Mat\criminalMaleA_Mat.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2020.09.15-05.24.37:709][209]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
+[2020.09.15-05.24.38:559][209]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2020.09.15-05.24.38:576][209]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2020.09.15-05.24.38:592][209]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2020.09.15-05.24.49:971][460]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 E:\ue4\Assets\animated-characters-2\Model/characterMedium.fbx)
+[2020.09.15-05.24.50:002][460]LogFbx: Loading FBX Scene from E:\ue4\Assets\animated-characters-2\Model/characterMedium.fbx
+[2020.09.15-05.24.50:018][460]LogFbx: FBX Scene Loaded Succesfully
+[2020.09.15-05.24.54:091][460]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.09.15-05.24.54:104][460]LogFbx: Warning: Not valid bind pose for Pose (characterMedium) - Node characterMedium : The relative matrices do not match
+[2020.09.15-05.24.54:104][460]LogFbx: Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2020.09.15-05.24.54:105][460]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - characterMedium
+[2020.09.15-05.24.54:105][460]LogFbx: Warning: Recreating bind pose succeeded.
+[2020.09.15-05.24.54:109][460]LogMaterial: Display: Material /Game/Assets/Character/Model/skin.skin needed to have new flag set bUsedWithSkeletalMesh !
+[2020.09.15-05.24.54:110][460]LogMaterial: Display: Missing cached shader map for material skin, compiling. 
+[2020.09.15-05.24.54:132][460]LogMaterial: Display: Missing cached shader map for material skin, compiling. 
+[2020.09.15-05.24.54:151][460]LogFbx: Triangulating skeletal mesh characterMedium
+[2020.09.15-05.24.54:202][460]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 39
+[2020.09.15-05.24.54:202][460]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 29
+[2020.09.15-05.24.54:202][460]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 19
+[2020.09.15-05.24.54:202][460]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 9
+[2020.09.15-05.24.54:202][460]LogFbx: Warning: Bones digested - 59  Depth of hierarchy - 14
+[2020.09.15-05.24.54:253][460]LogSkeletalMesh: Section 0: 1029 vertices, 32 active bones
+[2020.09.15-05.24.54:253][460]LogSkeletalMesh: Section 0: Material=0, 1604 triangles
+[2020.09.15-05.24.54:254][460]LogSkeletalMesh: Building Skeletal Mesh characterMedium...
+[2020.09.15-05.24.54:286][460]LogSkeletalMesh: Section 0: 1029 vertices, 32 active bones
+[2020.09.15-05.24.54:286][460]LogSkeletalMesh: Section 0: Material=0, 1604 triangles
+[2020.09.15-05.24.54:288][460]LogSkeletalMesh: Built Skeletal Mesh [0.03s] /Game/Assets/Character/Model/characterMedium.characterMedium
+[2020.09.15-05.24.54:297][460]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0'
+[2020.09.15-05.24.54:298][460]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2020.09.15-05.24.54:298][460]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.15-05.24.54:302][460]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2020.09.15-05.24.54:303][460]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.15-05.24.54:312][460]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.09.15-05.24.54:312][460]FBXImport: Warning: The following bones are missing from the bind pose:
+LeftFootIK_end  
+LeftFootRollCtrl_end  
+LeftKneeCtrl_end  
+RightFootIK_end  
+RightFootRollCtrl_end  
+RightKneeCtrl_end  
+Head_end  
+LeftHandIndex3_end  
+LeftHandThumb2_end  
+RightHandIndex3_end  
+RightHandThumb2_end  
+LeftToes_end  
+RightToes_end  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2020.09.15-05.24.54:370][460]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 E:\ue4\Assets\animated-characters-2\Skins/criminalMaleA.png)
+[2020.09.15-05.24.54:382][460]LogTexture: Display: Building textures: criminalMaleA (AutoDXT, 1024X1024)
+[2020.09.15-05.24.54:418][460]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.09.15-05.24.54:826][460]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.408 s
+[2020.09.15-05.24.54:826][460]LogOutputDevice: Error: === Handled ensure: ===
+[2020.09.15-05.24.54:826][460]LogOutputDevice: Error: 
+[2020.09.15-05.24.54:826][460]LogOutputDevice: Error: Ensure condition failed: ExpectedWorkThisFrame <= 1.01f * TotalAmountOfWork - CompletedWork [File:D:/Build/++UE4+Licensee/Sync/Engine/Source/Runtime/Core/Private/Misc/SlowTask.cpp] [Line: 121]
+[2020.09.15-05.24.54:826][460]LogOutputDevice: Error: Work overflow in slow task. Please revise call-site to account for entire progress range.
+[2020.09.15-05.24.54:826][460]LogOutputDevice: Error: Stack: 
+[2020.09.15-05.24.54:826][460]LogOutputDevice: Error: [Callstack] 0x00007ffd8ec6c446 UE4Editor-Core.dll!UnknownFunction []
+[2020.09.15-05.24.54:826][460]LogOutputDevice: Error: [Callstack] 0x00007ffd8e72518f UE4Editor-Core.dll!UnknownFunction []
+[2020.09.15-05.24.54:826][460]LogOutputDevice: Error: [Callstack] 0x00007ffd6fa95b3b UE4Editor-AssetTools.dll!UnknownFunction []
+[2020.09.15-05.24.54:826][460]LogOutputDevice: Error: [Callstack] 0x00007ffd6fa94611 UE4Editor-AssetTools.dll!UnknownFunction []
+[2020.09.15-05.24.54:826][460]LogOutputDevice: Error: [Callstack] 0x00007ffd7a2d9650 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2020.09.15-05.24.54:826][460]LogOutputDevice: Error: [Callstack] 0x00007ffd7a2a02df UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2020.09.15-05.24.54:826][460]LogOutputDevice: Error: [Callstack] 0x00007ffd7a2bf578 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2020.09.15-05.24.54:826][460]LogOutputDevice: Error: [Callstack] 0x00007ffd8df0253f UE4Editor-Slate.dll!UnknownFunction []
+[2020.09.15-05.24.54:826][460]LogOutputDevice: Error: [Callstack] 0x00007ffd8dee1d75 UE4Editor-Slate.dll!UnknownFunction []
+[2020.09.15-05.24.54:826][460]LogOutputDevice: Error: [Callstack] 0x00007ffd8df66c27 UE4Editor-Slate.dll!UnknownFunction []
+[2020.09.15-05.24.54:826][460]LogOutputDevice: Error: [Callstack] 0x00007ffd8df4f4b2 UE4Editor-Slate.dll!UnknownFunction []
+[2020.09.15-05.24.54:827][460]LogOutputDevice: Error: [Callstack] 0x00007ffd8df3fb86 UE4Editor-Slate.dll!UnknownFunction []
+[2020.09.15-05.24.54:827][460]LogOutputDevice: Error: [Callstack] 0x00007ffdca485e0a UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.09.15-05.24.54:827][460]LogOutputDevice: Error: [Callstack] 0x00007ffdca4766a5 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.09.15-05.24.54:827][460]LogOutputDevice: Error: [Callstack] 0x00007ffde0fc8602 ole32.dll!UnknownFunction []
+[2020.09.15-05.24.54:827][460]LogOutputDevice: Error: [Callstack] 0x00007ffde0556a53 RPCRT4.dll!UnknownFunction []
+[2020.09.15-05.24.54:827][460]LogOutputDevice: Error: [Callstack] 0x00007ffde05ba036 RPCRT4.dll!UnknownFunction []
+[2020.09.15-05.24.54:827][460]LogOutputDevice: Error: [Callstack] 0x00007ffde0518359 RPCRT4.dll!UnknownFunction []
+[2020.09.15-05.24.54:827][460]LogOutputDevice: Error: [Callstack] 0x00007ffddfeb5cbf combase.dll!UnknownFunction []
+[2020.09.15-05.24.54:827][460]LogOutputDevice: Error: [Callstack] 0x00007ffddfe9d0a3 combase.dll!UnknownFunction []
+[2020.09.15-05.24.54:827][460]LogOutputDevice: Error: [Callstack] 0x00007ffddfe9ce93 combase.dll!UnknownFunction []
+[2020.09.15-05.24.54:827][460]LogOutputDevice: Error: [Callstack] 0x00007ffddfeb9516 combase.dll!UnknownFunction []
+[2020.09.15-05.24.54:827][460]LogOutputDevice: Error: [Callstack] 0x00007ffddfe9a4ba combase.dll!UnknownFunction []
+[2020.09.15-05.24.54:827][460]LogOutputDevice: Error: [Callstack] 0x00007ffddfe9b17d combase.dll!UnknownFunction []
+[2020.09.15-05.24.54:827][460]LogOutputDevice: Error: [Callstack] 0x00007ffddfe5019c combase.dll!UnknownFunction []
+[2020.09.15-05.24.54:827][460]LogOutputDevice: Error: [Callstack] 0x00007ffddfe50a01 combase.dll!UnknownFunction []
+[2020.09.15-05.24.54:827][460]LogOutputDevice: Error: [Callstack] 0x00007ffddfe72f6d combase.dll!UnknownFunction []
+[2020.09.15-05.24.54:827][460]LogOutputDevice: Error: [Callstack] 0x00007ffde02f5c7d USER32.dll!UnknownFunction []
+[2020.09.15-05.24.54:827][460]LogOutputDevice: Error: [Callstack] 0x00007ffde02f5672 USER32.dll!UnknownFunction []
+[2020.09.15-05.24.54:827][460]LogOutputDevice: Error: [Callstack] 0x00007ffdca48bb24 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.09.15-05.24.54:827][460]LogOutputDevice: Error: [Callstack] 0x00007ff6ae8268c4 UE4Editor.exe!UnknownFunction []
+[2020.09.15-05.24.54:827][460]LogOutputDevice: Error: [Callstack] 0x00007ff6ae83ba7c UE4Editor.exe!UnknownFunction []
+[2020.09.15-05.24.54:827][460]LogOutputDevice: Error: [Callstack] 0x00007ff6ae83bb5a UE4Editor.exe!UnknownFunction []
+[2020.09.15-05.24.54:827][460]LogOutputDevice: Error: [Callstack] 0x00007ff6ae84e31d UE4Editor.exe!UnknownFunction []
+[2020.09.15-05.24.54:827][460]LogOutputDevice: Error: [Callstack] 0x00007ff6ae85145a UE4Editor.exe!UnknownFunction []
+[2020.09.15-05.24.54:827][460]LogOutputDevice: Error: [Callstack] 0x00007ffde0237bd4 KERNEL32.DLL!UnknownFunction []
+[2020.09.15-05.24.54:827][460]LogOutputDevice: Error: [Callstack] 0x00007ffde146ce51 ntdll.dll!UnknownFunction []
+[2020.09.15-05.24.54:827][460]LogOutputDevice: Error: 

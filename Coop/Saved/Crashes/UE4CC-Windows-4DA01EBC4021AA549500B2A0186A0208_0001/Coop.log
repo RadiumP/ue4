@@ -1,0 +1,1038 @@
+﻿Log file open, 01/21/21 18:55:10
+LogInit: Display: Running engine for game: Coop
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 26 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.193871
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2009) (), CPU: Intel(R) Core(TM) i7-9700K CPU @ 3.60GHz, GPU: NVIDIA GeForce RTX 2070 SUPER
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line:  -EpicPortal -epicusername=RadiumP -epicuserid=85d41b0a25264fa1a60d5393424e9601 -epiclocale=en
+LogInit: Base Directory: E:/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/ue4/Coop/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.01.22-02.55.10:469][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.01.22-02.55.10:469][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.01.22-02.55.10:469][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [E:/ue4/Coop/Saved/Config/Windows/Engine.ini]
+[2021.01.22-02.55.10:469][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.01.22-02.55.10:469][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [E:/ue4/Coop/Saved/Config/Windows/Engine.ini]
+[2021.01.22-02.55.10:469][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/ue4/Coop/Saved/Config/Windows/Engine.ini]
+[2021.01.22-02.55.10:469][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.01.22-02.55.10:469][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.01.22-02.55.10:469][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.01.22-02.55.10:469][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.01.22-02.55.10:469][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.01.22-02.55.10:469][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.01.22-02.55.10:469][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.01.22-02.55.10:469][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.01.22-02.55.10:469][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.01.22-02.55.10:469][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.01.22-02.55.10:469][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.01.22-02.55.10:469][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.01.22-02.55.10:469][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.01.22-02.55.10:469][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.01.22-02.55.10:469][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [E:/ue4/Coop/Saved/Config/Windows/Engine.ini]
+[2021.01.22-02.55.10:469][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.01.22-02.55.10:469][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.01.22-02.55.10:469][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.01.22-02.55.10:469][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.01.22-02.55.10:469][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.01.22-02.55.10:469][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.01.22-02.55.10:469][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.01.22-02.55.10:469][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.01.22-02.55.10:469][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.01.22-02.55.10:469][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.01.22-02.55.10:469][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.01.22-02.55.10:469][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.01.22-02.55.10:469][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.01.22-02.55.10:469][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [E:/ue4/Coop/Saved/Config/Windows/Engine.ini]
+[2021.01.22-02.55.10:469][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [E:/ue4/Coop/Saved/Config/Windows/Engine.ini]
+[2021.01.22-02.55.10:473][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/ue4/Coop/Saved/Config/Windows/Scalability.ini]
+[2021.01.22-02.55.10:473][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.01.22-02.55.10:473][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.01.22-02.55.10:473][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/ue4/Coop/Saved/Config/Windows/Scalability.ini]
+[2021.01.22-02.55.10:473][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.01.22-02.55.10:473][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/ue4/Coop/Saved/Config/Windows/Scalability.ini]
+[2021.01.22-02.55.10:473][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.01.22-02.55.10:473][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.01.22-02.55.10:473][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.01.22-02.55.10:473][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.01.22-02.55.10:473][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.01.22-02.55.10:473][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.01.22-02.55.10:473][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.01.22-02.55.10:473][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.01.22-02.55.10:473][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.01.22-02.55.10:473][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.01.22-02.55.10:473][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.01.22-02.55.10:473][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.01.22-02.55.10:473][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.01.22-02.55.10:473][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.01.22-02.55.10:473][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.01.22-02.55.10:473][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.01.22-02.55.10:473][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.01.22-02.55.10:473][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.01.22-02.55.10:473][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/ue4/Coop/Saved/Config/Windows/Scalability.ini]
+[2021.01.22-02.55.10:473][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.01.22-02.55.10:473][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.01.22-02.55.10:473][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.01.22-02.55.10:473][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.01.22-02.55.10:473][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.01.22-02.55.10:473][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.01.22-02.55.10:473][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.01.22-02.55.10:473][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.01.22-02.55.10:473][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.01.22-02.55.10:473][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.01.22-02.55.10:473][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.01.22-02.55.10:473][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.01.22-02.55.10:473][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.01.22-02.55.10:473][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.01.22-02.55.10:473][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.01.22-02.55.10:473][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.01.22-02.55.10:473][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.01.22-02.55.10:473][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.01.22-02.55.10:473][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.01.22-02.55.10:473][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.01.22-02.55.10:473][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.01.22-02.55.10:473][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.01.22-02.55.10:473][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.01.22-02.55.10:473][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.01.22-02.55.10:473][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.01.22-02.55.10:473][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.01.22-02.55.10:473][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.01.22-02.55.10:473][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.01.22-02.55.10:473][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.01.22-02.55.10:473][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.01.22-02.55.10:473][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/ue4/Coop/Saved/Config/Windows/Scalability.ini]
+[2021.01.22-02.55.10:473][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.01.22-02.55.10:473][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.01.22-02.55.10:473][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.01.22-02.55.10:473][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.01.22-02.55.10:473][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.01.22-02.55.10:474][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.01.22-02.55.10:474][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.01.22-02.55.10:474][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.01.22-02.55.10:474][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.01.22-02.55.10:474][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/ue4/Coop/Saved/Config/Windows/Scalability.ini]
+[2021.01.22-02.55.10:474][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.01.22-02.55.10:474][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.01.22-02.55.10:474][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.01.22-02.55.10:474][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.01.22-02.55.10:474][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.01.22-02.55.10:474][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.01.22-02.55.10:474][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.01.22-02.55.10:474][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.01.22-02.55.10:474][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.01.22-02.55.10:474][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.01.22-02.55.10:474][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.01.22-02.55.10:474][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.01.22-02.55.10:474][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.01.22-02.55.10:474][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.01.22-02.55.10:474][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.01.22-02.55.10:474][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.01.22-02.55.10:474][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.01.22-02.55.10:474][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.01.22-02.55.10:474][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.01.22-02.55.10:474][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.01.22-02.55.10:474][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.01.22-02.55.10:474][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.01.22-02.55.10:474][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.01.22-02.55.10:474][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.01.22-02.55.10:474][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.01.22-02.55.10:474][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.01.22-02.55.10:474][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/ue4/Coop/Saved/Config/Windows/Scalability.ini]
+[2021.01.22-02.55.10:474][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.01.22-02.55.10:474][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.01.22-02.55.10:474][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [E:/ue4/Coop/Saved/Config/Windows/Scalability.ini]
+[2021.01.22-02.55.10:474][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.01.22-02.55.10:474][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.01.22-02.55.10:474][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.01.22-02.55.10:474][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.01.22-02.55.10:474][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.01.22-02.55.10:474][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.01.22-02.55.10:474][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.01.22-02.55.10:474][  0]LogInit: Selected Device Profile: [Windows]
+[2021.01.22-02.55.10:474][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.01.22-02.55.10:474][  0]LogHAL: Display: Platform has ~ 16 GB [17082105856 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.01.22-02.55.10:474][  0]LogInit: Going up to parent DeviceProfile []
+[2021.01.22-02.55.10:474][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/ue4/Coop/Saved/Config/Windows/Scalability.ini]
+[2021.01.22-02.55.10:474][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.01.22-02.55.10:474][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.01.22-02.55.10:474][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/ue4/Coop/Saved/Config/Windows/Scalability.ini]
+[2021.01.22-02.55.10:474][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.01.22-02.55.10:474][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/ue4/Coop/Saved/Config/Windows/Scalability.ini]
+[2021.01.22-02.55.10:474][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.01.22-02.55.10:474][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.01.22-02.55.10:474][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.01.22-02.55.10:474][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.01.22-02.55.10:474][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.01.22-02.55.10:474][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.01.22-02.55.10:474][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.01.22-02.55.10:474][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.01.22-02.55.10:474][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.01.22-02.55.10:474][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.01.22-02.55.10:474][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.01.22-02.55.10:474][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.01.22-02.55.10:474][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.01.22-02.55.10:474][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.01.22-02.55.10:474][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.01.22-02.55.10:474][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.01.22-02.55.10:474][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.01.22-02.55.10:474][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.01.22-02.55.10:474][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/ue4/Coop/Saved/Config/Windows/Scalability.ini]
+[2021.01.22-02.55.10:474][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.01.22-02.55.10:474][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.01.22-02.55.10:474][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.01.22-02.55.10:474][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.01.22-02.55.10:474][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.01.22-02.55.10:474][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.01.22-02.55.10:474][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.01.22-02.55.10:474][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.01.22-02.55.10:474][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.01.22-02.55.10:474][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.01.22-02.55.10:474][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.01.22-02.55.10:474][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.01.22-02.55.10:474][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.01.22-02.55.10:474][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.01.22-02.55.10:475][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.01.22-02.55.10:475][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.01.22-02.55.10:475][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.01.22-02.55.10:475][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.01.22-02.55.10:475][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.01.22-02.55.10:475][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.01.22-02.55.10:475][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.01.22-02.55.10:475][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.01.22-02.55.10:475][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.01.22-02.55.10:475][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.01.22-02.55.10:475][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.01.22-02.55.10:475][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.01.22-02.55.10:475][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.01.22-02.55.10:475][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.01.22-02.55.10:475][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.01.22-02.55.10:475][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.01.22-02.55.10:475][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/ue4/Coop/Saved/Config/Windows/Scalability.ini]
+[2021.01.22-02.55.10:475][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.01.22-02.55.10:475][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.01.22-02.55.10:475][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.01.22-02.55.10:475][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.01.22-02.55.10:475][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.01.22-02.55.10:475][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.01.22-02.55.10:475][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.01.22-02.55.10:475][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.01.22-02.55.10:475][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.01.22-02.55.10:475][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/ue4/Coop/Saved/Config/Windows/Scalability.ini]
+[2021.01.22-02.55.10:475][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.01.22-02.55.10:475][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.01.22-02.55.10:475][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.01.22-02.55.10:475][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.01.22-02.55.10:475][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.01.22-02.55.10:475][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.01.22-02.55.10:475][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.01.22-02.55.10:475][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.01.22-02.55.10:475][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.01.22-02.55.10:475][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.01.22-02.55.10:475][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.01.22-02.55.10:475][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.01.22-02.55.10:475][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.01.22-02.55.10:475][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.01.22-02.55.10:475][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.01.22-02.55.10:475][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.01.22-02.55.10:475][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.01.22-02.55.10:475][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.01.22-02.55.10:475][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.01.22-02.55.10:475][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.01.22-02.55.10:475][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.01.22-02.55.10:475][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.01.22-02.55.10:475][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.01.22-02.55.10:475][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.01.22-02.55.10:475][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.01.22-02.55.10:475][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.01.22-02.55.10:475][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/ue4/Coop/Saved/Config/Windows/Scalability.ini]
+[2021.01.22-02.55.10:475][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.01.22-02.55.10:475][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.01.22-02.55.10:475][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [E:/ue4/Coop/Saved/Config/Windows/Scalability.ini]
+[2021.01.22-02.55.10:475][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.01.22-02.55.10:475][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.01.22-02.55.10:475][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.01.22-02.55.10:475][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.01.22-02.55.10:475][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.01.22-02.55.10:475][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.01.22-02.55.10:475][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.01.22-02.55.10:475][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.01.22-02.55.10:475][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.01.22-02.55.10:475][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.01.22-02.55.10:475][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.01.22-02.55.10:475][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [E:/ue4/Coop/Saved/Config/Windows/Engine.ini]
+[2021.01.22-02.55.10:476][  0]LogInit: Computer: DESKTOP-ALKKQ0L
+[2021.01.22-02.55.10:476][  0]LogInit: User: 32808
+[2021.01.22-02.55.10:476][  0]LogInit: CPU Page size=4096, Cores=8
+[2021.01.22-02.55.10:476][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.01.22-02.55.10:476][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2021.01.22-02.55.10:476][  0]LogMemory: Platform Memory Stats for Windows
+[2021.01.22-02.55.10:476][  0]LogMemory: Process Physical Memory: 116.23 MB used, 116.23 MB peak
+[2021.01.22-02.55.10:476][  0]LogMemory: Process Virtual Memory: 104.56 MB used, 104.56 MB peak
+[2021.01.22-02.55.10:476][  0]LogMemory: Physical Memory: 6274.78 MB used,  10015.98 MB free, 16290.77 MB total
+[2021.01.22-02.55.10:476][  0]LogMemory: Virtual Memory: 5157.25 MB used,  134212568.00 MB free, 134217728.00 MB total
+[2021.01.22-02.55.10:482][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.01.22-02.55.10:572][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.01.22-02.55.10:573][  0]LogInit: Using OS detected language (en-US).
+[2021.01.22-02.55.10:573][  0]LogInit: Using OS detected locale (en-US).
+[2021.01.22-02.55.10:574][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2021.01.22-02.55.10:716][  0]LogInit: Setting process to per monitor DPI aware
+[2021.01.22-02.55.10:768][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.01.22-02.55.10:769][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.01.22-02.55.10:930][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.01.22-02.55.10:931][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.01.22-02.55.10:931][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.01.22-02.55.10:931][  0]LogD3D11RHI: D3D11 adapters:
+[2021.01.22-02.55.11:053][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2070 SUPER' (Feature Level 11_0)
+[2021.01.22-02.55.11:053][  0]LogD3D11RHI:       8011/0/8145 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2021.01.22-02.55.11:055][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.01.22-02.55.11:055][  0]LogD3D11RHI:       0/0/8145 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.01.22-02.55.11:055][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.01.22-02.55.11:060][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.01.22-02.55.11:060][  0]LogD3D11RHI:     GPU DeviceId: 0x1e84 (for the marketing name, search the web for "GPU Device Id")
+[2021.01.22-02.55.11:060][  0]LogWindows: EnumDisplayDevices:
+[2021.01.22-02.55.11:060][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2070 SUPER' (P:1 D:1)
+[2021.01.22-02.55.11:061][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2070 SUPER' (P:0 D:1)
+[2021.01.22-02.55.11:062][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2070 SUPER' (P:0 D:0)
+[2021.01.22-02.55.11:062][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2070 SUPER' (P:0 D:0)
+[2021.01.22-02.55.11:063][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2021.01.22-02.55.11:063][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2070 SUPER
+[2021.01.22-02.55.11:063][  0]LogD3D11RHI:   Driver Version: 461.09 (internal:27.21.14.6109, unified:461.09)
+[2021.01.22-02.55.11:063][  0]LogD3D11RHI:      Driver Date: 12-31-2020
+[2021.01.22-02.55.11:063][  0]LogRHI: Texture pool is 5607 MB (70% of 8011 MB)
+[2021.01.22-02.55.11:149][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.01.22-02.55.11:149][  0]LogD3D11RHI: Async texture creation enabled
+[2021.01.22-02.55.11:149][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.01.22-02.55.11:169][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.01.22-02.55.11:497][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.01.22-02.55.11:516][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.01.22-02.55.11:516][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.01.22-02.55.11:516][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.01.22-02.55.11:516][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.01.22-02.55.11:516][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.01.22-02.55.11:516][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.01.22-02.55.11:516][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.01.22-02.55.11:516][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.01.22-02.55.11:516][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.01.22-02.55.11:516][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.01.22-02.55.11:541][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.01.22-02.55.11:541][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.01.22-02.55.11:551][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.01.22-02.55.11:560][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.01.22-02.55.11:568][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.01.22-02.55.11:577][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.01.22-02.55.11:586][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.01.22-02.55.11:595][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.01.22-02.55.11:604][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.01.22-02.55.11:628][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.01.22-02.55.11:628][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.01.22-02.55.11:642][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.01.22-02.55.11:642][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.01.22-02.55.11:651][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.01.22-02.55.11:661][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.01.22-02.55.11:670][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.01.22-02.55.11:679][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.01.22-02.55.11:679][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.01.22-02.55.11:688][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.01.22-02.55.11:752][  0]LogShaderCompilers: Guid format shader working directory is 25 characters bigger than the processId version (../../../../ue4/Coop/Intermediate/Shaders/WorkingDirectory/10552/).
+[2021.01.22-02.55.11:752][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/32808/AppData/Local/Temp/UnrealShaderWorkingDir/D6A64D8848EC80C1B397C7B9F3F954C7/'.
+[2021.01.22-02.55.11:753][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.01.22-02.55.11:753][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.01.22-02.55.11:753][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.01.22-02.55.12:473][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.01.22-02.55.12:517][  0]LogDerivedDataCache: Loaded boot cache 0.04s 76MB C:/Users/32808/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.01.22-02.55.12:517][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/32808/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2021.01.22-02.55.12:517][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../ue4/Coop/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.01.22-02.55.12:517][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.01.22-02.55.12:517][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../ue4/Coop/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.01.22-02.55.12:517][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.01.22-02.55.12:527][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.01.22-02.55.12:527][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.01.22-02.55.12:527][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.01.22-02.55.12:528][  0]LogDerivedDataCache: Using Local data cache path C:/Users/32808/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.01.22-02.55.12:528][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.01.22-02.55.12:528][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.01.22-02.55.12:574][  0]LogSlate: Using FreeType 2.10.0
+[2021.01.22-02.55.12:575][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.01.22-02.55.12:598][  0]LogAssetRegistry: FAssetRegistry took 0.0022 seconds to start up
+[2021.01.22-02.55.12:799][  0]LogInit: Selected Device Profile: [Windows]
+[2021.01.22-02.55.12:908][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.01.22-02.55.12:908][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.01.22-02.55.12:908][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.01.22-02.55.12:908][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.01.22-02.55.12:908][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.01.22-02.55.12:925][  0]LogNetVersion: Coop 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 3898844526)
+[2021.01.22-02.55.13:323][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (00000215BC3D0400), frame # 0
+[2021.01.22-02.55.13:323][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000215BD305080), frame # 0
+[2021.01.22-02.55.13:324][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000215BD359E00), frame # 0
+[2021.01.22-02.55.13:355][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.026589 seconds
+[2021.01.22-02.55.13:359][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2021.01.22-02.55.13:359][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2021.01.22-02.55.13:359][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.01.22-02.55.13:694][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.01.22-02.55.13:699][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.01.22-02.55.13:787][  0]SourceControl: Source control is disabled
+[2021.01.22-02.55.13:787][  0]SourceControl: Source control is disabled
+[2021.01.22-02.55.13:790][  0]SourceControl: Source control is disabled
+[2021.01.22-02.55.13:794][  0]SourceControl: Source control is disabled
+[2021.01.22-02.55.13:802][  0]SourceControl: Source control is disabled
+[2021.01.22-02.55.14:061][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.01.22-02.55.14:082][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.01.22-02.55.14:082][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.01.22-02.55.14:130][  0]LogOcInput: OculusInput pre-init called
+[2021.01.22-02.55.14:141][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.01.22-02.55.14:141][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.01.22-02.55.14:199][  0]LogEngine: Initializing Engine...
+[2021.01.22-02.55.14:200][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.01.22-02.55.14:200][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.01.22-02.55.14:201][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.01.22-02.55.14:303][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.01.22-02.55.14:310][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.01.22-02.55.14:310][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000215C354FC00), frame # 0
+[2021.01.22-02.55.14:310][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000215C35B1A80), frame # 0
+[2021.01.22-02.55.14:323][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.22-02.55.14:323][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.22-02.55.14:323][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.22-02.55.14:323][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.22-02.55.14:323][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.22-02.55.14:323][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.22-02.55.14:323][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.22-02.55.14:323][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.22-02.55.14:323][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.22-02.55.14:323][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.22-02.55.14:342][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.22-02.55.14:342][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.01.22-02.55.14:418][  0]LogAudioMixer: Display: Using Audio Device Dell S2716DG (NVIDIA High Definition Audio)
+[2021.01.22-02.55.14:419][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.22-02.55.14:422][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.22-02.55.14:422][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.22-02.55.14:422][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.22-02.55.14:423][  0]LogInit: FAudioDevice initialized.
+[2021.01.22-02.55.14:423][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.01.22-02.55.14:467][  0]LogDerivedDataCache: Saved boot cache 0.04s 76MB C:/Users/32808/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.01.22-02.55.14:467][  0]LogInit: Texture streaming: Enabled
+[2021.01.22-02.55.14:484][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.01.22-02.55.14:484][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.01.22-02.55.14:486][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.01.22-02.55.14:519][  0]LogInit: Transaction tracking system initialized
+[2021.01.22-02.55.14:541][  0]BlueprintLog: New page: Editor Load
+[2021.01.22-02.55.14:612][  0]LocalizationService: Localization service is disabled
+[2021.01.22-02.55.14:745][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.01.22-02.55.14:746][  0]LogCook: Display: Mobile HDR setting 1
+[2021.01.22-02.55.14:882][  0]LogFileCache: Scanning file cache for directory 'E:/ue4/Coop/Content/' took 0.00s
+[2021.01.22-02.55.15:104][  0]SourceControl: Source control is disabled
+[2021.01.22-02.55.15:104][  0]LogUnrealEdMisc: Loading editor; pre map load, took 6.129
+[2021.01.22-02.55.15:104][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.01.22-02.55.15:104][  0]LightingResults: New page: Lighting Build
+[2021.01.22-02.55.15:105][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.01.22-02.55.15:105][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.22-02.55.15:105][  0]MapCheck: New page: Map Check
+[2021.01.22-02.55.15:105][  0]LightingResults: New page: Lighting Build
+[2021.01.22-02.55.15:115][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000215C354FC00), frame # 0
+[2021.01.22-02.55.15:115][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000215C35B1A80), frame # 0
+[2021.01.22-02.55.15:116][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2021.01.22-02.55.15:172][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2021.01.22-02.55.15:172][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000215B13B8600), frame # 0
+[2021.01.22-02.55.15:172][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000215B091D800), frame # 0
+[2021.01.22-02.55.15:175][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.01.22-02.55.15:186][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2021.01.22-02.55.15:186][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.01.22-02.55.15:186][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.098ms to complete.
+[2021.01.22-02.55.15:186][  0]LogFileHelpers: Loading map 'Template_Default' took 0.082
+[2021.01.22-02.55.15:188][  0]LogUnrealEdMisc: Total Editor Startup Time, took 6.212
+[2021.01.22-02.55.15:322][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.22-02.55.15:328][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.22-02.55.15:334][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.22-02.55.15:340][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.22-02.55.15:347][  0]LogCollectionManager: Loaded 0 collections in 0.000713 seconds
+[2021.01.22-02.55.15:360][  0]LogFileCache: Scanning file cache for directory 'E:/ue4/Coop/Saved/Collections/' took 0.00s
+[2021.01.22-02.55.15:360][  0]LogFileCache: Scanning file cache for directory 'E:/ue4/Coop/Content/Developers/32808/Collections/' took 0.00s
+[2021.01.22-02.55.15:360][  0]LogFileCache: Scanning file cache for directory 'E:/ue4/Coop/Content/Collections/' took 0.00s
+[2021.01.22-02.55.15:360][  0]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 3431 classes and 824 folders.
+[2021.01.22-02.55.15:363][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.01.22-02.55.15:424][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.01.22-02.55.15:427][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 0 folders.
+[2021.01.22-02.55.15:510][  0]LogSlate: Took 0.000172 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.01.22-02.55.15:511][  0]LogSlate: Took 0.000165 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.01.22-02.55.15:514][  0]LogSlate: Took 0.000150 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.01.22-02.55.15:576][  0]LogRenderer: Reallocating scene render targets to support 1340x832 Format 10 NumSamples 1 (Frame:1).
+[2021.01.22-02.55.15:644][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2021.01.22-02.55.15:644][  0]LogLoad: (Engine Initialization) Total time: 6.67 seconds
+[2021.01.22-02.55.15:644][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.01.22-02.55.15:675][  0]LogAssetRegistry: Asset discovery search completed in 3.0779 seconds
+[2021.01.22-02.55.15:679][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2021.01.22-02.55.15:680][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.01.22-02.55.20:358][240]LogSlate: Took 0.000192 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.01.22-02.55.20:383][240]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_PlayerPawn.BP_PlayerPawn
+[2021.01.22-02.55.20:581][240]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 125 classes and 0 folders.
+[2021.01.22-02.55.21:364][240]LogSlate: Took 0.000186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.01.22-02.55.21:401][241]LogSlate: Took 0.000138 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.01.22-02.55.25:563][446]LogRenderer: Reallocating scene render targets to support 1484x1032 Format 10 NumSamples 1 (Frame:1).
+[2021.01.22-02.55.33:666][793]LogSlate: Window 'BP_PlayerPawn' being destroyed
+[2021.01.22-02.55.33:705][793]LogSlate: Window 'BP_PlayerPawn' being destroyed
+[2021.01.22-02.55.33:705][793]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2021.01.22-02.55.33:705][793]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.22-02.55.38:703][ 21]LogAssetEditorSubsystem: Opening Asset editor for Class /Script/Coop.SCharacter
+[2021.01.22-02.56.08:565][134]Candidate modules for hot reload:
+[2021.01.22-02.56.08:565][134]  Coop
+[2021.01.22-02.56.08:565][134]Launching UnrealBuildTool... [E:/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Coop,7526 CoopEditor Win64 Development -Project="E:/ue4/Coop/Coop.uproject" "E:/ue4/Coop/Coop.uproject"  -IgnoreJunk]
+[2021.01.22-02.56.08:580][134]Warning: Starting HotReload took  0.3s.
+[2021.01.22-02.56.17:414][593]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_PlayerPawn.BP_PlayerPawn
+[2021.01.22-02.56.18:900][651]CompilerResultsLog: New page: Compilation - Jan 21, 2021, 10:56:18 AM
+[2021.01.22-02.56.18:900][651]CompilerResultsLog: Building CoopEditor...
+[2021.01.22-02.56.18:900][651]CompilerResultsLog: Using Visual Studio 2019 14.28.29336 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.01.22-02.56.18:900][651]CompilerResultsLog: Building 3 actions with 8 processes...
+[2021.01.22-02.56.18:900][651]CompilerResultsLog:   [1/3] UE4Editor-Coop-7526.lib
+[2021.01.22-02.56.18:900][651]CompilerResultsLog:      Creating library E:\ue4\Coop\Intermediate\Build\Win64\UE4Editor\Development\Coop\UE4Editor-Coop-7526.lib and object E:\ue4\Coop\Intermediate\Build\Win64\UE4Editor\Development\Coop\UE4Editor-Coop-7526.exp
+[2021.01.22-02.56.18:900][651]CompilerResultsLog:   [2/3] UE4Editor-Coop-7526.dll
+[2021.01.22-02.56.18:900][651]CompilerResultsLog:      Creating library E:\ue4\Coop\Intermediate\Build\Win64\UE4Editor\Development\Coop\UE4Editor-Coop-7526.suppressed.lib and object E:\ue4\Coop\Intermediate\Build\Win64\UE4Editor\Development\Coop\UE4Editor-Coop-7526.suppressed.exp
+[2021.01.22-02.56.18:900][651]CompilerResultsLog:   [3/3] CoopEditor.target
+[2021.01.22-02.56.18:900][651]CompilerResultsLog: Total time in Parallel executor: 5.06 seconds
+[2021.01.22-02.56.18:900][651]CompilerResultsLog: Total execution time: 10.13 seconds
+[2021.01.22-02.56.18:900][651]LogMainFrame: MainFrame: Module compiling took 10.338 seconds
+[2021.01.22-02.56.19:415][651]LogContentBrowser: Native class hierarchy updated for 'Coop' in 0.0004 seconds. Added 4 classes and 3 folders.
+[2021.01.22-02.56.19:418][651]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2021.01.22-02.56.19:667][651]LogContentBrowser: Native class hierarchy populated in 0.0080 seconds. Added 3431 classes and 824 folders.
+[2021.01.22-02.56.19:667][651]Display: HotReload took 11.4s.
+[2021.01.22-02.56.27:603][ 29]BlueprintLog: New page: Compile BP_PlayerPawn
+[2021.01.22-02.56.27:738][ 29]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
+[2021.01.22-02.56.27:777][ 29]LogSlate: Took 0.000163 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.01.22-02.56.57:320][808]LogSlate: Window 'BP_PlayerPawn' being destroyed
+[2021.01.22-02.56.57:342][808]LogSlate: Window 'BP_PlayerPawn' being destroyed
+[2021.01.22-02.56.57:349][808]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2021.01.22-02.56.57:349][808]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.22-02.57.01:652][ 15]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/NewMap.NewMap
+[2021.01.22-02.57.01:697][ 15]LogUObjectHash: Compacting FUObjectHashTables data took   2.83ms
+[2021.01.22-02.57.01:698][ 15]Cmd: MAP LOAD FILE="../../../../ue4/Coop/Content/Maps/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.01.22-02.57.01:698][ 15]LightingResults: New page: Lighting Build
+[2021.01.22-02.57.01:698][ 15]LoadErrors: New page: Loading map: NewMap.umap
+[2021.01.22-02.57.01:699][ 15]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=true
+[2021.01.22-02.57.01:699][ 15]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.22-02.57.01:699][ 15]MapCheck: New page: Map Check
+[2021.01.22-02.57.01:699][ 15]LightingResults: New page: Lighting Build
+[2021.01.22-02.57.01:723][ 15]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000215B13B8600), frame # 3015
+[2021.01.22-02.57.01:723][ 15]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000215B091D800), frame # 3015
+[2021.01.22-02.57.01:737][ 15]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2021.01.22-02.57.01:834][ 15]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.01.22-02.57.01:834][ 15]LogAIModule: Creating AISystem for world NewMap
+[2021.01.22-02.57.01:834][ 15]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000215E5E54A00), frame # 3015
+[2021.01.22-02.57.01:834][ 15]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000215E617A700), frame # 3015
+[2021.01.22-02.57.01:853][ 15]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2021.01.22-02.57.01:865][ 15]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.01.22-02.57.01:866][ 15]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.103ms to complete.
+[2021.01.22-02.57.01:866][ 15]LogFileHelpers: Loading map 'NewMap' took 0.167
+[2021.01.22-02.57.12:312][539]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.22-02.57.12:323][539]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.22-02.57.12:323][539]PIE: New page: PIE session: NewMap (Jan 21, 2021, 10:57:12 AM)
+[2021.01.22-02.57.12:324][539]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.01.22-02.57.12:325][539]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.01.22-02.57.12:325][539]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2021.01.22-02.57.12:327][539]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002200s)
+[2021.01.22-02.57.12:328][539]LogAIModule: Creating AISystem for world NewMap
+[2021.01.22-02.57.12:328][539]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000215E6873800), frame # 3539
+[2021.01.22-02.57.12:328][539]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000215FF4EAE80), frame # 3539
+[2021.01.22-02.57.12:328][539]LogPlayLevel: PIE: World Init took: (0.000941s)
+[2021.01.22-02.57.12:328][539]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.003255s)
+[2021.01.22-02.57.12:344][539]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2021.01.22-02.57.12:346][539]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.22-02.57.12:346][539]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.22-02.57.12:346][539]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.22-02.57.12:346][539]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.22-02.57.12:346][539]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.22-02.57.12:346][539]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.22-02.57.12:346][539]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.22-02.57.12:346][539]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.22-02.57.12:346][539]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.22-02.57.12:346][539]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.22-02.57.12:358][539]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.22-02.57.12:358][539]LogAudioMixer: Display: 1: FrontRight
+[2021.01.22-02.57.12:385][539]LogAudioMixer: Display: Using Audio Device Dell S2716DG (NVIDIA High Definition Audio)
+[2021.01.22-02.57.12:385][539]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.22-02.57.12:385][539]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.22-02.57.12:386][539]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.22-02.57.12:386][539]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.22-02.57.12:398][539]LogInit: FAudioDevice initialized.
+[2021.01.22-02.57.12:407][539]LogLoad: Game class is 'GameModeBase'
+[2021.01.22-02.57.12:409][539]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2021.01.21-18.57.12
+[2021.01.22-02.57.12:409][539]LogWorld: Bringing up level for play took: 0.000874
+[2021.01.22-02.57.12:410][539]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2021.01.22-02.57.12:435][539]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2021.01.22-02.57.12:436][539]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.12:436][539]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.12:436][539]PIE: Server logged in
+[2021.01.22-02.57.12:437][539]PIE: Play in editor total start time 0.118 seconds.
+[2021.01.22-02.57.12:982][549]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.13:052][553]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.13:069][554]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.13:084][555]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.13:101][556]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.13:117][557]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.13:133][558]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.13:150][559]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.13:168][560]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.13:186][561]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.13:200][562]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.13:250][563]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.13:268][564]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.13:284][565]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.13:299][566]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.13:316][567]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.13:333][568]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.13:349][569]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.13:432][574]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.13:449][575]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.13:466][576]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.13:483][577]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.13:499][578]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.13:517][579]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.13:533][580]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.13:549][581]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.13:566][582]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.13:583][583]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.13:599][584]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.13:616][585]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.13:633][586]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.13:649][587]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.13:667][588]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.13:684][589]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.13:684][589]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.13:700][590]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.13:700][590]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.13:716][591]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.13:716][591]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.13:733][592]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.13:733][592]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.13:750][593]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.13:750][593]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.13:766][594]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.13:766][594]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.13:783][595]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.13:800][596]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.13:817][597]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.13:817][597]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.13:835][598]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.13:835][598]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.13:851][599]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.13:851][599]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.13:868][600]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.13:868][600]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.13:885][601]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.13:885][601]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.13:902][602]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.13:902][602]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.13:918][603]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.13:918][603]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.13:934][604]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.13:934][604]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.13:951][605]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.13:951][605]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.13:969][606]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.13:969][606]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.13:984][607]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.13:985][607]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:002][608]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:002][608]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:018][609]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:018][609]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:035][610]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:036][610]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:051][611]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:069][612]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:069][612]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:086][613]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:086][613]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:102][614]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:102][614]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:119][615]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:119][615]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:135][616]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:135][616]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:152][617]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:152][617]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:169][618]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:169][618]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:185][619]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:185][619]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:203][620]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:203][620]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:219][621]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:219][621]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:236][622]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:237][622]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:252][623]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:252][623]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:268][624]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:269][624]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:286][625]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:287][625]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:302][626]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:302][626]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:320][627]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:337][628]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:352][629]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:368][630]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:385][631]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:402][632]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:402][632]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:420][633]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:420][633]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:436][634]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:436][634]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:452][635]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:452][635]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:471][636]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:471][636]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:486][637]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:486][637]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:503][638]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:504][638]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:521][639]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:521][639]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:536][640]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:536][640]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:553][641]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:553][641]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:569][642]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:569][642]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:585][643]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:586][643]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:602][644]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:619][645]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:704][650]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:720][651]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:737][652]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:753][653]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:770][654]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:786][655]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:787][655]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:805][656]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:805][656]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:820][657]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:821][657]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:836][658]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:836][658]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:852][659]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:853][659]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:869][660]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:886][661]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:903][662]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:920][663]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:937][664]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:937][664]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:953][665]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:953][665]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:970][666]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:970][666]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:987][667]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.14:987][667]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.15:003][668]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.15:020][669]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.15:037][670]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.15:054][671]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.15:070][672]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.15:087][673]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.15:105][674]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.15:105][674]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.15:123][675]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.15:123][675]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.15:138][676]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.15:138][676]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.15:155][677]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.15:155][677]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.15:171][678]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.15:171][678]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.15:188][679]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.15:204][680]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.15:222][681]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.15:238][682]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.15:254][683]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.15:270][684]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.15:287][685]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.15:305][686]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.15:321][687]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.15:337][688]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.15:354][689]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.15:371][690]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.15:388][691]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.15:404][692]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.15:421][693]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.15:437][694]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.15:454][695]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.15:471][696]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.15:488][697]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.15:505][698]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.15:521][699]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.15:538][700]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.15:555][701]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.15:572][702]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.15:588][703]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.15:605][704]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.15:622][705]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.15:638][706]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.15:655][707]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.15:672][708]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.15:689][709]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.15:706][710]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.15:723][711]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.15:739][712]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.15:755][713]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.15:772][714]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.15:789][715]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.15:807][716]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.15:822][717]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.15:839][718]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.15:856][719]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.15:873][720]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.15:873][720]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.15:890][721]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.15:890][721]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.15:906][722]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.15:906][722]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.15:925][723]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.15:925][723]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.15:939][724]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.15:940][724]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.15:956][725]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.15:973][726]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.15:989][727]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.16:006][728]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.16:023][729]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.16:040][730]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.16:040][730]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.16:057][731]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.16:058][731]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.16:073][732]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.16:074][732]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.16:091][733]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.16:091][733]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.16:108][734]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.16:108][734]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.16:126][735]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.16:126][735]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.16:141][736]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.16:141][736]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.16:158][737]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.16:158][737]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.16:174][738]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.16:175][738]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.16:191][739]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.16:191][739]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.16:207][740]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.16:207][740]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.16:224][741]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.16:224][741]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.16:241][742]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.16:241][742]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.16:257][743]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.16:257][743]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.16:273][744]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.16:274][744]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.16:290][745]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.16:290][745]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.16:310][746]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.16:327][747]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.16:341][748]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.16:358][749]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.16:374][750]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.16:391][751]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.16:408][752]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.16:425][753]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.16:441][754]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.16:458][755]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.16:474][756]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.16:491][757]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.16:508][758]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.16:525][759]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.16:525][759]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.16:542][760]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.16:542][760]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.16:559][761]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.16:559][761]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.16:592][763]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.16:625][765]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.16:642][766]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)
+[2021.01.22-02.57.16:742][772]LogSkinnedMeshComp: Warning: GetSocketByName(weapon_socket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerPawn_5)

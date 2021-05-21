@@ -1,0 +1,1358 @@
+﻿Log file open, 10/14/20 20:05:27
+LogInit: Display: Running engine for game: EscapeRoom
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 26 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.184825
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-13942748
+LogInit: Engine Version: 4.25.3-13942748+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2004) (), CPU: Intel(R) Core(TM) i7-9700K CPU @ 3.60GHz, GPU: NVIDIA GeForce RTX 2070 SUPER
+LogInit: Compiled (64-bit): Jul 25 2020 02:07:48
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: E:/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/ue4/EscapeRoom/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.10.15-03.05.27:561][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.10.15-03.05.27:561][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.10.15-03.05.27:561][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [E:/ue4/EscapeRoom/Saved/Config/Windows/Engine.ini]
+[2020.10.15-03.05.27:561][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.10.15-03.05.27:561][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [E:/ue4/EscapeRoom/Saved/Config/Windows/Engine.ini]
+[2020.10.15-03.05.27:561][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/ue4/EscapeRoom/Saved/Config/Windows/Engine.ini]
+[2020.10.15-03.05.27:561][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.10.15-03.05.27:561][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.10.15-03.05.27:561][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.10.15-03.05.27:561][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.10.15-03.05.27:561][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.10.15-03.05.27:561][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.10.15-03.05.27:561][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.10.15-03.05.27:561][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.10.15-03.05.27:561][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.10.15-03.05.27:561][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.10.15-03.05.27:561][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.10.15-03.05.27:561][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.10.15-03.05.27:561][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.10.15-03.05.27:561][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.10.15-03.05.27:561][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [E:/ue4/EscapeRoom/Saved/Config/Windows/Engine.ini]
+[2020.10.15-03.05.27:561][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.10.15-03.05.27:561][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.10.15-03.05.27:561][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.10.15-03.05.27:561][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.10.15-03.05.27:561][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.10.15-03.05.27:561][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.10.15-03.05.27:561][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.10.15-03.05.27:561][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.10.15-03.05.27:561][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.10.15-03.05.27:561][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.10.15-03.05.27:561][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.10.15-03.05.27:561][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.10.15-03.05.27:561][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.10.15-03.05.27:561][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [E:/ue4/EscapeRoom/Saved/Config/Windows/Engine.ini]
+[2020.10.15-03.05.27:561][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [E:/ue4/EscapeRoom/Saved/Config/Windows/Engine.ini]
+[2020.10.15-03.05.27:566][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/ue4/EscapeRoom/Saved/Config/Windows/Scalability.ini]
+[2020.10.15-03.05.27:566][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.10.15-03.05.27:566][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.10.15-03.05.27:566][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/ue4/EscapeRoom/Saved/Config/Windows/Scalability.ini]
+[2020.10.15-03.05.27:566][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.10.15-03.05.27:566][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/ue4/EscapeRoom/Saved/Config/Windows/Scalability.ini]
+[2020.10.15-03.05.27:566][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.10.15-03.05.27:566][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.10.15-03.05.27:566][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.10.15-03.05.27:566][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.10.15-03.05.27:566][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.10.15-03.05.27:566][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.10.15-03.05.27:566][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.10.15-03.05.27:566][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.10.15-03.05.27:566][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.10.15-03.05.27:566][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.10.15-03.05.27:566][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.10.15-03.05.27:566][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.10.15-03.05.27:566][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.10.15-03.05.27:566][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.10.15-03.05.27:566][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.10.15-03.05.27:566][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.10.15-03.05.27:566][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.10.15-03.05.27:566][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.10.15-03.05.27:566][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/ue4/EscapeRoom/Saved/Config/Windows/Scalability.ini]
+[2020.10.15-03.05.27:566][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.10.15-03.05.27:566][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.10.15-03.05.27:566][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.10.15-03.05.27:566][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.10.15-03.05.27:566][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.10.15-03.05.27:566][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.10.15-03.05.27:566][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.10.15-03.05.27:566][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.10.15-03.05.27:566][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.10.15-03.05.27:566][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.10.15-03.05.27:566][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.10.15-03.05.27:566][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.10.15-03.05.27:566][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.10.15-03.05.27:566][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.10.15-03.05.27:566][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.10.15-03.05.27:566][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.10.15-03.05.27:566][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.10.15-03.05.27:566][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.10.15-03.05.27:566][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.10.15-03.05.27:566][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/ue4/EscapeRoom/Saved/Config/Windows/Scalability.ini]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/ue4/EscapeRoom/Saved/Config/Windows/Scalability.ini]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/ue4/EscapeRoom/Saved/Config/Windows/Scalability.ini]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [E:/ue4/EscapeRoom/Saved/Config/Windows/Scalability.ini]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.10.15-03.05.27:567][  0]LogInit: Selected Device Profile: [Windows]
+[2020.10.15-03.05.27:567][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.10.15-03.05.27:567][  0]LogHAL: Display: Platform has ~ 16 GB [17082105856 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.10.15-03.05.27:567][  0]LogInit: Going up to parent DeviceProfile []
+[2020.10.15-03.05.27:567][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/ue4/EscapeRoom/Saved/Config/Windows/Scalability.ini]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/ue4/EscapeRoom/Saved/Config/Windows/Scalability.ini]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/ue4/EscapeRoom/Saved/Config/Windows/Scalability.ini]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/ue4/EscapeRoom/Saved/Config/Windows/Scalability.ini]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/ue4/EscapeRoom/Saved/Config/Windows/Scalability.ini]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/ue4/EscapeRoom/Saved/Config/Windows/Scalability.ini]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/ue4/EscapeRoom/Saved/Config/Windows/Scalability.ini]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [E:/ue4/EscapeRoom/Saved/Config/Windows/Scalability.ini]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.10.15-03.05.27:567][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.10.15-03.05.27:569][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.10.15-03.05.27:569][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.10.15-03.05.27:569][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.10.15-03.05.27:569][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [E:/ue4/EscapeRoom/Saved/Config/Windows/Engine.ini]
+[2020.10.15-03.05.27:569][  0]LogInit: Computer: DESKTOP-ALKKQ0L
+[2020.10.15-03.05.27:569][  0]LogInit: User: 32808
+[2020.10.15-03.05.27:569][  0]LogInit: CPU Page size=4096, Cores=8
+[2020.10.15-03.05.27:569][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.10.15-03.05.27:569][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.10.15-03.05.27:569][  0]LogMemory: Platform Memory Stats for Windows
+[2020.10.15-03.05.27:569][  0]LogMemory: Process Physical Memory: 117.16 MB used, 117.17 MB peak
+[2020.10.15-03.05.27:569][  0]LogMemory: Process Virtual Memory: 104.50 MB used, 104.50 MB peak
+[2020.10.15-03.05.27:569][  0]LogMemory: Physical Memory: 6347.23 MB used,  9943.54 MB free, 16290.77 MB total
+[2020.10.15-03.05.27:569][  0]LogMemory: Virtual Memory: 5157.21 MB used,  134212568.00 MB free, 134217728.00 MB total
+[2020.10.15-03.05.27:574][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.10.15-03.05.27:661][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.10.15-03.05.27:662][  0]LogInit: Using OS detected language (en-US).
+[2020.10.15-03.05.27:662][  0]LogInit: Using OS detected locale (en-US).
+[2020.10.15-03.05.27:663][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.10.15-03.05.27:803][  0]LogInit: Setting process to per monitor DPI aware
+[2020.10.15-03.05.27:847][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.10.15-03.05.27:847][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.10.15-03.05.28:010][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.10.15-03.05.28:010][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.10.15-03.05.28:010][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.10.15-03.05.28:010][  0]LogD3D11RHI: D3D11 adapters:
+[2020.10.15-03.05.28:109][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2070 SUPER' (Feature Level 11_0)
+[2020.10.15-03.05.28:109][  0]LogD3D11RHI:       8011/0/8145 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.10.15-03.05.28:112][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.10.15-03.05.28:112][  0]LogD3D11RHI:       0/0/8145 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.10.15-03.05.28:112][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.10.15-03.05.28:118][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.10.15-03.05.28:118][  0]LogD3D11RHI:     GPU DeviceId: 0x1e84 (for the marketing name, search the web for "GPU Device Id")
+[2020.10.15-03.05.28:118][  0]LogWindows: EnumDisplayDevices:
+[2020.10.15-03.05.28:118][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2070 SUPER' (P:1 D:1)
+[2020.10.15-03.05.28:119][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2070 SUPER' (P:0 D:1)
+[2020.10.15-03.05.28:120][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2070 SUPER' (P:0 D:0)
+[2020.10.15-03.05.28:120][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2070 SUPER' (P:0 D:0)
+[2020.10.15-03.05.28:121][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.10.15-03.05.28:121][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2070 SUPER
+[2020.10.15-03.05.28:121][  0]LogD3D11RHI:   Driver Version: 456.71 (internal:27.21.14.5671, unified:456.71)
+[2020.10.15-03.05.28:121][  0]LogD3D11RHI:      Driver Date: 9-30-2020
+[2020.10.15-03.05.28:121][  0]LogRHI: Texture pool is 5607 MB (70% of 8011 MB)
+[2020.10.15-03.05.28:184][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.10.15-03.05.28:187][  0]LogD3D11RHI: [Aftermath] Enabled and primed
+[2020.10.15-03.05.28:187][  0]LogD3D11RHI: Async texture creation enabled
+[2020.10.15-03.05.28:187][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.10.15-03.05.28:206][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.10.15-03.05.28:595][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.10.15-03.05.28:613][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.10.15-03.05.28:613][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.10.15-03.05.28:613][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.10.15-03.05.28:613][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.10.15-03.05.28:613][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.10.15-03.05.28:613][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.10.15-03.05.28:613][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.10.15-03.05.28:613][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.10.15-03.05.28:613][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.10.15-03.05.28:613][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.10.15-03.05.28:633][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.10.15-03.05.28:633][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.10.15-03.05.28:642][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.10.15-03.05.28:650][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.10.15-03.05.28:657][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.10.15-03.05.28:665][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.10.15-03.05.28:673][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.10.15-03.05.28:681][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.10.15-03.05.28:689][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.10.15-03.05.28:711][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.10.15-03.05.28:711][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.10.15-03.05.28:725][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.10.15-03.05.28:725][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.10.15-03.05.28:733][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.10.15-03.05.28:741][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.10.15-03.05.28:749][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.10.15-03.05.28:757][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.10.15-03.05.28:757][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.10.15-03.05.28:764][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.10.15-03.05.28:814][  0]LogShaderCompilers: Guid format shader working directory is 19 characters bigger than the processId version (../../../../ue4/EscapeRoom/Intermediate/Shaders/WorkingDirectory/21396/).
+[2020.10.15-03.05.28:814][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/32808/AppData/Local/Temp/UnrealShaderWorkingDir/EDE010CC436EE91B71B60888C12C0840/'.
+[2020.10.15-03.05.28:815][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.10.15-03.05.28:815][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.10.15-03.05.28:815][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.10.15-03.05.29:530][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.10.15-03.05.29:575][  0]LogDerivedDataCache: Loaded boot cache 0.04s 76MB C:/Users/32808/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.10.15-03.05.29:575][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/32808/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.10.15-03.05.29:575][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../ue4/EscapeRoom/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.10.15-03.05.29:575][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.10.15-03.05.29:575][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../ue4/EscapeRoom/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.10.15-03.05.29:575][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.10.15-03.05.29:584][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.10.15-03.05.29:585][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.10.15-03.05.29:585][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.10.15-03.05.29:586][  0]LogDerivedDataCache: Using Local data cache path C:/Users/32808/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.10.15-03.05.29:586][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.10.15-03.05.29:586][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.10.15-03.05.29:632][  0]LogSlate: Using FreeType 2.10.0
+[2020.10.15-03.05.29:632][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.10.15-03.05.29:658][  0]LogAssetRegistry: FAssetRegistry took 0.0022 seconds to start up
+[2020.10.15-03.05.29:856][  0]LogInit: Selected Device Profile: [Windows]
+[2020.10.15-03.05.29:958][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.10.15-03.05.29:958][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.10.15-03.05.29:958][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.10.15-03.05.29:958][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.10.15-03.05.29:958][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.10.15-03.05.29:973][  0]LogNetVersion: EscapeRoom 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 2058882427)
+[2020.10.15-03.05.30:374][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (00000168AAE99D00), frame # 0
+[2020.10.15-03.05.30:374][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000168ABDF91C0), frame # 0
+[2020.10.15-03.05.30:375][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000168ABE49E00), frame # 0
+[2020.10.15-03.05.30:547][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.166541 seconds
+[2020.10.15-03.05.30:551][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.10.15-03.05.30:551][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.10.15-03.05.30:551][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.10.15-03.05.30:983][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.10.15-03.05.30:987][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.10.15-03.05.31:634][  0]SourceControl: Source control is disabled
+[2020.10.15-03.05.31:634][  0]SourceControl: Source control is disabled
+[2020.10.15-03.05.31:636][  0]SourceControl: Source control is disabled
+[2020.10.15-03.05.31:639][  0]SourceControl: Source control is disabled
+[2020.10.15-03.05.31:646][  0]SourceControl: Source control is disabled
+[2020.10.15-03.05.31:860][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.10.15-03.05.31:878][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.10.15-03.05.31:878][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.10.15-03.05.31:920][  0]LogOcInput: OculusInput pre-init called
+[2020.10.15-03.05.31:929][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.10.15-03.05.31:929][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.10.15-03.05.31:981][  0]LogEngine: Initializing Engine...
+[2020.10.15-03.05.32:019][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.10.15-03.05.32:019][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.10.15-03.05.32:019][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.10.15-03.05.32:124][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.10.15-03.05.32:131][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.10.15-03.05.32:131][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000168AE2D7C00), frame # 0
+[2020.10.15-03.05.32:131][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000168AE31A700), frame # 0
+[2020.10.15-03.05.32:145][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.15-03.05.32:145][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.15-03.05.32:145][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.15-03.05.32:145][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.15-03.05.32:146][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.15-03.05.32:146][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.15-03.05.32:146][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.15-03.05.32:146][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.15-03.05.32:146][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.15-03.05.32:146][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.15-03.05.32:165][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.15-03.05.32:165][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.10.15-03.05.32:221][  0]LogAudioMixer: Display: Using Audio Device Dell S2716DG (NVIDIA High Definition Audio)
+[2020.10.15-03.05.32:224][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.15-03.05.32:225][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.15-03.05.32:226][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.15-03.05.32:226][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.15-03.05.32:227][  0]LogInit: FAudioDevice initialized.
+[2020.10.15-03.05.32:227][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.10.15-03.05.32:272][  0]LogDerivedDataCache: Saved boot cache 0.04s 76MB C:/Users/32808/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.10.15-03.05.32:272][  0]LogInit: Texture streaming: Enabled
+[2020.10.15-03.05.32:288][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.10.15-03.05.32:288][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.10.15-03.05.32:290][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.10.15-03.05.32:337][  0]LogInit: Transaction tracking system initialized
+[2020.10.15-03.05.32:355][  0]BlueprintLog: New page: Editor Load
+[2020.10.15-03.05.32:428][  0]LocalizationService: Localization service is disabled
+[2020.10.15-03.05.32:659][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.10.15-03.05.32:659][  0]LogCook: Display: Mobile HDR setting 1
+[2020.10.15-03.05.32:668][  0]LogFileCache: Scanning file cache for directory 'E:/ue4/EscapeRoom/Content/' took 0.02s
+[2020.10.15-03.05.33:006][  0]SourceControl: Source control is disabled
+[2020.10.15-03.05.33:006][  0]LogUnrealEdMisc: Loading editor; pre map load, took 7.223
+[2020.10.15-03.05.33:006][  0]Cmd: MAP LOAD FILE="../../../../ue4/EscapeRoom/Content/Levels/EscapeRoom.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.10.15-03.05.33:007][  0]LightingResults: New page: Lighting Build
+[2020.10.15-03.05.33:007][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.10.15-03.05.33:007][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.15-03.05.33:007][  0]MapCheck: New page: Map Check
+[2020.10.15-03.05.33:007][  0]LightingResults: New page: Lighting Build
+[2020.10.15-03.05.33:018][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000168AE2D7C00), frame # 0
+[2020.10.15-03.05.33:018][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000168AE31A700), frame # 0
+[2020.10.15-03.05.33:018][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2020.10.15-03.05.33:680][  0]LogAIModule: Creating AISystem for world EscapeRoom
+[2020.10.15-03.05.33:680][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001689E463E00), frame # 0
+[2020.10.15-03.05.33:680][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001689DCA5F80), frame # 0
+[2020.10.15-03.05.33:746][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.10.15-03.05.33:757][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2020.10.15-03.05.33:757][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.15-03.05.33:758][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.08ms to complete.
+[2020.10.15-03.05.33:758][  0]LogFileHelpers: Loading map 'EscapeRoom' took 0.751
+[2020.10.15-03.05.34:348][  0]LogUnrealEdMisc: Total Editor Startup Time, took 8.565
+[2020.10.15-03.05.34:904][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.15-03.05.34:910][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.15-03.05.34:916][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.15-03.05.34:922][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.15-03.05.35:045][  0]LogCollectionManager: Loaded 0 collections in 0.000718 seconds
+[2020.10.15-03.05.35:187][  0]LogFileCache: Scanning file cache for directory 'E:/ue4/EscapeRoom/Saved/Collections/' took 0.00s
+[2020.10.15-03.05.35:187][  0]LogFileCache: Scanning file cache for directory 'E:/ue4/EscapeRoom/Content/Developers/32808/Collections/' took 0.00s
+[2020.10.15-03.05.35:187][  0]LogFileCache: Scanning file cache for directory 'E:/ue4/EscapeRoom/Content/Collections/' took 0.00s
+[2020.10.15-03.05.35:187][  0]LogContentBrowser: Native class hierarchy populated in 0.0096 seconds. Added 3430 classes and 823 folders.
+[2020.10.15-03.05.35:239][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.10.15-03.05.36:537][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.10.15-03.05.36:629][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 2 classes and 0 folders.
+[2020.10.15-03.05.37:072][  0]LogSlate: Took 0.000158 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.10.15-03.05.37:082][  0]LogSlate: Took 0.000140 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.10.15-03.05.37:106][  0]LogSlate: Took 0.018610 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.10.15-03.05.37:579][  0]LogRenderer: Reallocating scene render targets to support 1368x836 Format 10 NumSamples 1 (Frame:1).
+[2020.10.15-03.05.38:050][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.10.15-03.05.38:050][  0]LogLoad: (Engine Initialization) Total time: 12.27 seconds
+[2020.10.15-03.05.38:050][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.10.15-03.05.38:085][  0]LogAssetRegistry: Asset discovery search completed in 8.4277 seconds
+[2020.10.15-03.05.38:088][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2020.10.15-03.05.38:094][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.10.15-03.05.43:277][287]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2020.10.15-03.05.43:313][287]Candidate modules for hot reload:
+[2020.10.15-03.05.43:313][287]  EscapeRoom
+[2020.10.15-03.05.43:313][287]Launching UnrealBuildTool... [E:/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=EscapeRoom,3250 EscapeRoomEditor Win64 Development -Project="E:/ue4/EscapeRoom/EscapeRoom.uproject" "E:/ue4/EscapeRoom/EscapeRoom.uproject"  -IgnoreJunk]
+[2020.10.15-03.05.43:331][287]Warning: Starting HotReload took  0.1s.
+[2020.10.15-03.05.48:462][581]CompilerResultsLog: New page: Compilation - Oct 14, 2020, 1:05:48 PM
+[2020.10.15-03.05.48:462][581]CompilerResultsLog: Building EscapeRoomEditor...
+[2020.10.15-03.05.48:462][581]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.10.15-03.05.48:462][581]CompilerResultsLog: Building 3 actions with 8 processes...
+[2020.10.15-03.05.48:462][581]CompilerResultsLog:   [1/3] UE4Editor-EscapeRoom-3250.lib
+[2020.10.15-03.05.48:462][581]CompilerResultsLog:      Creating library E:\ue4\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\EscapeRoom\UE4Editor-EscapeRoom-3250.lib and object E:\ue4\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\EscapeRoom\UE4Editor-EscapeRoom-3250.exp
+[2020.10.15-03.05.48:462][581]CompilerResultsLog:   [2/3] UE4Editor-EscapeRoom-3250.dll
+[2020.10.15-03.05.48:463][581]CompilerResultsLog:      Creating library E:\ue4\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\EscapeRoom\UE4Editor-EscapeRoom-3250.suppressed.lib and object E:\ue4\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\EscapeRoom\UE4Editor-EscapeRoom-3250.suppressed.exp
+[2020.10.15-03.05.48:463][581]CompilerResultsLog:   [3/3] EscapeRoomEditor.target
+[2020.10.15-03.05.48:463][581]CompilerResultsLog: Total time in Parallel executor: 2.20 seconds
+[2020.10.15-03.05.48:463][581]CompilerResultsLog: Total execution time: 4.99 seconds
+[2020.10.15-03.05.48:463][581]LogMainFrame: MainFrame: Module compiling took 5.185 seconds
+[2020.10.15-03.05.48:477][581]LogContentBrowser: Native class hierarchy updated for 'EscapeRoom' in 0.0004 seconds. Added 3 classes and 2 folders.
+[2020.10.15-03.05.48:477][581]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.10.15-03.05.48:591][581]LogContentBrowser: Native class hierarchy populated in 0.0086 seconds. Added 3430 classes and 823 folders.
+[2020.10.15-03.05.48:591][581]Display: HotReload took  5.4s.
+[2020.10.15-03.06.14:212][455]LogSlate: Took 0.021176 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.10.15-03.06.14:231][455]LogAssetEditorSubsystem: Opening Asset editor for Class /Script/EscapeRoom.Grabber
+[2020.10.15-03.08.37:741][920]Candidate modules for hot reload:
+[2020.10.15-03.08.37:741][920]  EscapeRoom
+[2020.10.15-03.08.37:741][920]Launching UnrealBuildTool... [E:/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=EscapeRoom,2728 EscapeRoomEditor Win64 Development -Project="E:/ue4/EscapeRoom/EscapeRoom.uproject" "E:/ue4/EscapeRoom/EscapeRoom.uproject"  -IgnoreJunk]
+[2020.10.15-03.08.37:751][920]Warning: Starting HotReload took  0.1s.
+[2020.10.15-03.12.53:031][785]CompilerResultsLog: New page: Compilation - Oct 14, 2020, 1:12:53 PM
+[2020.10.15-03.12.53:031][785]CompilerResultsLog: Building EscapeRoomEditor...
+[2020.10.15-03.12.53:031][785]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.10.15-03.12.53:031][785]CompilerResultsLog: Building 4 actions with 8 processes...
+[2020.10.15-03.12.53:031][785]CompilerResultsLog:   [1/4] Grabber.cpp
+[2020.10.15-03.12.53:031][785]CompilerResultsLog:   [2/4] UE4Editor-EscapeRoom-2728.lib
+[2020.10.15-03.12.53:031][785]CompilerResultsLog:      Creating library E:\ue4\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\EscapeRoom\UE4Editor-EscapeRoom-2728.lib and object E:\ue4\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\EscapeRoom\UE4Editor-EscapeRoom-2728.exp
+[2020.10.15-03.12.53:031][785]CompilerResultsLog:   [3/4] UE4Editor-EscapeRoom-2728.dll
+[2020.10.15-03.12.53:032][785]CompilerResultsLog:      Creating library E:\ue4\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\EscapeRoom\UE4Editor-EscapeRoom-2728.suppressed.lib and object E:\ue4\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\EscapeRoom\UE4Editor-EscapeRoom-2728.suppressed.exp
+[2020.10.15-03.12.53:032][785]CompilerResultsLog:   [4/4] EscapeRoomEditor.target
+[2020.10.15-03.12.53:032][785]CompilerResultsLog: Total time in Parallel executor: 254.39 seconds
+[2020.10.15-03.12.53:032][785]CompilerResultsLog: Total execution time: 255.05 seconds
+[2020.10.15-03.12.53:032][785]LogMainFrame: MainFrame: Module compiling took 255.293 seconds
+[2020.10.15-03.12.53:043][785]LogContentBrowser: Native class hierarchy updated for 'EscapeRoom' in 0.0005 seconds. Added 3 classes and 2 folders.
+[2020.10.15-03.12.53:044][785]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.10.15-03.12.53:075][785]LogContentBrowser: Native class hierarchy populated in 0.0082 seconds. Added 3430 classes and 823 folders.
+[2020.10.15-03.12.53:075][785]Display: HotReload took 255.4s.
+[2020.10.15-03.22.47:619][593]Candidate modules for hot reload:
+[2020.10.15-03.22.47:619][593]  EscapeRoom
+[2020.10.15-03.22.47:619][593]Launching UnrealBuildTool... [E:/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=EscapeRoom,551 EscapeRoomEditor Win64 Development -Project="E:/ue4/EscapeRoom/EscapeRoom.uproject" "E:/ue4/EscapeRoom/EscapeRoom.uproject"  -IgnoreJunk]
+[2020.10.15-03.22.47:629][593]Warning: Starting HotReload took  0.0s.
+[2020.10.15-03.22.54:215][974]CompilerResultsLog: New page: Compilation - Oct 14, 2020, 1:22:54 PM
+[2020.10.15-03.22.54:215][974]CompilerResultsLog: Building EscapeRoomEditor...
+[2020.10.15-03.22.54:215][974]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.10.15-03.22.54:215][974]CompilerResultsLog: Building 4 actions with 8 processes...
+[2020.10.15-03.22.54:215][974]CompilerResultsLog:   [1/4] Grabber.cpp
+[2020.10.15-03.22.54:215][974]CompilerResultsLog:   [2/4] UE4Editor-EscapeRoom-0551.lib
+[2020.10.15-03.22.54:215][974]CompilerResultsLog:      Creating library E:\ue4\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\EscapeRoom\UE4Editor-EscapeRoom-0551.lib and object E:\ue4\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\EscapeRoom\UE4Editor-EscapeRoom-0551.exp
+[2020.10.15-03.22.54:215][974]CompilerResultsLog:   [3/4] UE4Editor-EscapeRoom-0551.dll
+[2020.10.15-03.22.54:215][974]CompilerResultsLog:      Creating library E:\ue4\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\EscapeRoom\UE4Editor-EscapeRoom-0551.suppressed.lib and object E:\ue4\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\EscapeRoom\UE4Editor-EscapeRoom-0551.suppressed.exp
+[2020.10.15-03.22.54:215][974]CompilerResultsLog:   [4/4] EscapeRoomEditor.target
+[2020.10.15-03.22.54:215][974]CompilerResultsLog: Total time in Parallel executor: 5.83 seconds
+[2020.10.15-03.22.54:215][974]CompilerResultsLog: Total execution time: 6.48 seconds
+[2020.10.15-03.22.54:215][974]LogMainFrame: MainFrame: Module compiling took 6.604 seconds
+[2020.10.15-03.22.54:230][974]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 3430 classes and 823 folders.
+[2020.10.15-03.22.54:230][974]Display: HotReload took  6.6s.
+[2020.10.15-03.22.56:019][ 82]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.15-03.22.56:145][ 82]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.15-03.22.56:153][ 82]PIE: New page: PIE session: EscapeRoom (Oct 14, 2020, 1:22:56 PM)
+[2020.10.15-03.22.56:224][ 82]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.10.15-03.22.56:237][ 82]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.10.15-03.22.56:270][ 82]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_EscapeRoom
+[2020.10.15-03.22.56:326][ 82]LogPlayLevel: PIE: StaticDuplicateObject took: (0.055665s)
+[2020.10.15-03.22.56:340][ 82]LogAIModule: Creating AISystem for world EscapeRoom
+[2020.10.15-03.22.56:340][ 82]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000168DE272C00), frame # 10082
+[2020.10.15-03.22.56:340][ 82]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000168DE09BD80), frame # 10082
+[2020.10.15-03.22.56:340][ 82]LogPlayLevel: PIE: World Init took: (0.014559s)
+[2020.10.15-03.22.56:350][ 82]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/EscapeRoom.EscapeRoom to /Game/Levels/UEDPIE_0_EscapeRoom.EscapeRoom (0.079425s)
+[2020.10.15-03.22.56:360][ 82]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2020.10.15-03.22.56:364][ 82]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.15-03.22.56:364][ 82]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.15-03.22.56:364][ 82]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.15-03.22.56:364][ 82]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.15-03.22.56:364][ 82]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.15-03.22.56:364][ 82]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.15-03.22.56:364][ 82]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.15-03.22.56:364][ 82]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.15-03.22.56:364][ 82]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.15-03.22.56:364][ 82]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.15-03.22.56:377][ 82]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.15-03.22.56:377][ 82]LogAudioMixer: Display: 1: FrontRight
+[2020.10.15-03.22.56:412][ 82]LogAudioMixer: Display: Using Audio Device Dell S2716DG (NVIDIA High Definition Audio)
+[2020.10.15-03.22.56:412][ 82]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.15-03.22.56:412][ 82]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.15-03.22.56:412][ 82]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.15-03.22.56:413][ 82]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.15-03.22.56:425][ 82]LogInit: FAudioDevice initialized.
+[2020.10.15-03.22.56:794][ 82]LogLoad: Game class is 'ERGameMode_BP_C'
+[2020.10.15-03.22.56:930][ 82]LogWorld: Bringing World /Game/Levels/UEDPIE_0_EscapeRoom.EscapeRoom up for play (max tick rate 0) at 2020.10.14-20.22.56
+[2020.10.15-03.22.56:949][ 82]LogWorld: Bringing up level for play took: 0.014188
+[2020.10.15-03.22.56:969][ 82]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2020.10.15-03.22.57:563][ 82]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 20 classes and 0 folders.
+[2020.10.15-03.22.57:781][ 82]LogTemp: Warning: Grabber activated.
+[2020.10.15-03.22.57:802][ 82]PIE: Server logged in
+[2020.10.15-03.22.57:820][ 82]PIE: Play in editor total start time 1.759 seconds.
+[2020.10.15-03.23.04:535][399]LogSlate: Took 0.015586 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.10.15-03.23.18:058][206]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.15-03.23.18:058][206]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_EscapeRoom
+[2020.10.15-03.23.18:080][206]LogWorld: UWorld::CleanupWorld for EscapeRoom, bSessionEnded=true, bCleanupResources=true
+[2020.10.15-03.23.18:081][206]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.15-03.23.18:127][206]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.15-03.23.18:147][206]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.15-03.23.18:183][206]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.15-03.23.18:199][206]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000168DE272C00), frame # 11206
+[2020.10.15-03.23.18:199][206]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000168DE09BD80), frame # 11206
+[2020.10.15-03.23.18:200][206]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2020.10.15-03.23.18:266][207]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2020.10.15-03.23.44:579][408]Candidate modules for hot reload:
+[2020.10.15-03.23.44:579][408]  EscapeRoom
+[2020.10.15-03.23.44:579][408]Launching UnrealBuildTool... [E:/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=EscapeRoom,386 EscapeRoomEditor Win64 Development -Project="E:/ue4/EscapeRoom/EscapeRoom.uproject" "E:/ue4/EscapeRoom/EscapeRoom.uproject"  -IgnoreJunk]
+[2020.10.15-03.23.44:589][408]Warning: Starting HotReload took  0.0s.
+[2020.10.15-03.23.46:666][519]CompilerResultsLog: New page: Compilation - Oct 14, 2020, 1:23:46 PM
+[2020.10.15-03.23.46:666][519]CompilerResultsLog: Building EscapeRoomEditor...
+[2020.10.15-03.23.46:666][519]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.10.15-03.23.46:666][519]CompilerResultsLog: Building 4 actions with 8 processes...
+[2020.10.15-03.23.46:666][519]CompilerResultsLog:   [1/4] Grabber.cpp
+[2020.10.15-03.23.46:666][519]CompilerResultsLog:   [2/4] UE4Editor-EscapeRoom-0386.lib
+[2020.10.15-03.23.46:666][519]CompilerResultsLog:      Creating library E:\ue4\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\EscapeRoom\UE4Editor-EscapeRoom-0386.lib and object E:\ue4\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\EscapeRoom\UE4Editor-EscapeRoom-0386.exp
+[2020.10.15-03.23.46:666][519]CompilerResultsLog:   [3/4] UE4Editor-EscapeRoom-0386.dll
+[2020.10.15-03.23.46:666][519]CompilerResultsLog:      Creating library E:\ue4\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\EscapeRoom\UE4Editor-EscapeRoom-0386.suppressed.lib and object E:\ue4\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\EscapeRoom\UE4Editor-EscapeRoom-0386.suppressed.exp
+[2020.10.15-03.23.46:666][519]CompilerResultsLog:   [4/4] EscapeRoomEditor.target
+[2020.10.15-03.23.46:666][519]CompilerResultsLog: Total time in Parallel executor: 1.40 seconds
+[2020.10.15-03.23.46:666][519]CompilerResultsLog: Total execution time: 1.99 seconds
+[2020.10.15-03.23.46:666][519]LogMainFrame: MainFrame: Module compiling took 2.094 seconds
+[2020.10.15-03.23.46:680][519]LogContentBrowser: Native class hierarchy populated in 0.0086 seconds. Added 3430 classes and 823 folders.
+[2020.10.15-03.23.46:680][519]Display: HotReload took  2.1s.
+[2020.10.15-03.23.48:419][619]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.15-03.23.48:432][619]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.15-03.23.48:432][619]PIE: New page: PIE session: EscapeRoom (Oct 14, 2020, 1:23:48 PM)
+[2020.10.15-03.23.48:432][619]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_EscapeRoom
+[2020.10.15-03.23.48:438][619]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005989s)
+[2020.10.15-03.23.48:439][619]LogAIModule: Creating AISystem for world EscapeRoom
+[2020.10.15-03.23.48:439][619]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000168DDD3A800), frame # 11619
+[2020.10.15-03.23.48:555][619]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000168DE505300), frame # 11619
+[2020.10.15-03.23.48:556][619]LogPlayLevel: PIE: World Init took: (0.117763s)
+[2020.10.15-03.23.48:556][619]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/EscapeRoom.EscapeRoom to /Game/Levels/UEDPIE_0_EscapeRoom.EscapeRoom (0.123960s)
+[2020.10.15-03.23.48:570][619]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2020.10.15-03.23.48:571][619]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.15-03.23.48:571][619]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.15-03.23.48:571][619]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.15-03.23.48:571][619]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.15-03.23.48:571][619]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.15-03.23.48:571][619]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.15-03.23.48:571][619]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.15-03.23.48:571][619]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.15-03.23.48:571][619]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.15-03.23.48:571][619]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.15-03.23.48:583][619]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.15-03.23.48:583][619]LogAudioMixer: Display: 1: FrontRight
+[2020.10.15-03.23.48:611][619]LogAudioMixer: Display: Using Audio Device Dell S2716DG (NVIDIA High Definition Audio)
+[2020.10.15-03.23.48:612][619]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.15-03.23.48:612][619]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.15-03.23.48:612][619]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.15-03.23.48:612][619]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.15-03.23.48:624][619]LogInit: FAudioDevice initialized.
+[2020.10.15-03.23.48:643][619]LogLoad: Game class is 'ERGameMode_BP_C'
+[2020.10.15-03.23.48:645][619]LogWorld: Bringing World /Game/Levels/UEDPIE_0_EscapeRoom.EscapeRoom up for play (max tick rate 0) at 2020.10.14-20.23.48
+[2020.10.15-03.23.48:645][619]LogWorld: Bringing up level for play took: 0.000714
+[2020.10.15-03.23.48:645][619]LogOnline: OSS: Creating online subsystem instance for: :Context_4
+[2020.10.15-03.23.48:659][619]LogTemp: Warning: Grabber activated.
+[2020.10.15-03.23.48:659][619]PIE: Server logged in
+[2020.10.15-03.23.48:660][619]PIE: Play in editor total start time 0.232 seconds.
+[2020.10.15-03.24.00:893][260]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.15-03.24.00:893][260]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_EscapeRoom
+[2020.10.15-03.24.00:893][260]LogWorld: UWorld::CleanupWorld for EscapeRoom, bSessionEnded=true, bCleanupResources=true
+[2020.10.15-03.24.00:893][260]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.15-03.24.00:902][260]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.15-03.24.00:903][260]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.15-03.24.00:913][260]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.15-03.24.00:928][260]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000168DE505300), frame # 12260
+[2020.10.15-03.24.00:928][260]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000168DDD3A800), frame # 12260
+[2020.10.15-03.24.00:929][260]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2020.10.15-03.24.00:969][263]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2020.10.15-03.24.01:619][300]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere)
+[2020.10.15-03.24.19:423][273]Candidate modules for hot reload:
+[2020.10.15-03.24.19:423][273]  EscapeRoom
+[2020.10.15-03.24.19:423][273]Launching UnrealBuildTool... [E:/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=EscapeRoom,2570 EscapeRoomEditor Win64 Development -Project="E:/ue4/EscapeRoom/EscapeRoom.uproject" "E:/ue4/EscapeRoom/EscapeRoom.uproject"  -IgnoreJunk]
+[2020.10.15-03.24.19:433][273]Warning: Starting HotReload took  0.0s.
+[2020.10.15-03.24.21:125][360]CompilerResultsLog: New page: Compilation - Oct 14, 2020, 1:24:21 PM
+[2020.10.15-03.24.21:125][360]CompilerResultsLog: Building EscapeRoomEditor...
+[2020.10.15-03.24.21:125][360]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.10.15-03.24.21:125][360]CompilerResultsLog: Building 3 actions with 8 processes...
+[2020.10.15-03.24.21:125][360]CompilerResultsLog:   [1/3] UE4Editor-EscapeRoom-2570.lib
+[2020.10.15-03.24.21:125][360]CompilerResultsLog:      Creating library E:\ue4\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\EscapeRoom\UE4Editor-EscapeRoom-2570.lib and object E:\ue4\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\EscapeRoom\UE4Editor-EscapeRoom-2570.exp
+[2020.10.15-03.24.21:125][360]CompilerResultsLog:   [2/3] UE4Editor-EscapeRoom-2570.dll
+[2020.10.15-03.24.21:125][360]CompilerResultsLog:      Creating library E:\ue4\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\EscapeRoom\UE4Editor-EscapeRoom-2570.suppressed.lib and object E:\ue4\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\EscapeRoom\UE4Editor-EscapeRoom-2570.suppressed.exp
+[2020.10.15-03.24.21:125][360]CompilerResultsLog:   [3/3] EscapeRoomEditor.target
+[2020.10.15-03.24.21:125][360]CompilerResultsLog: Total time in Parallel executor: 1.00 seconds
+[2020.10.15-03.24.21:125][360]CompilerResultsLog: Total execution time: 1.60 seconds
+[2020.10.15-03.24.21:125][360]LogMainFrame: MainFrame: Module compiling took 1.710 seconds
+[2020.10.15-03.24.21:134][360]LogContentBrowser: Native class hierarchy updated for 'EscapeRoom' in 0.0004 seconds. Added 3 classes and 2 folders.
+[2020.10.15-03.24.21:135][360]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.10.15-03.24.21:164][360]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 3430 classes and 823 folders.
+[2020.10.15-03.24.21:165][360]Display: HotReload took  1.8s.
+[2020.10.15-03.24.21:994][411]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.15-03.24.22:006][411]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.15-03.24.22:006][411]PIE: New page: PIE session: EscapeRoom (Oct 14, 2020, 1:24:22 PM)
+[2020.10.15-03.24.22:006][411]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_EscapeRoom
+[2020.10.15-03.24.22:012][411]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005974s)
+[2020.10.15-03.24.22:013][411]LogAIModule: Creating AISystem for world EscapeRoom
+[2020.10.15-03.24.22:013][411]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000168B3F9E600), frame # 13411
+[2020.10.15-03.24.22:013][411]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000168DE506840), frame # 13411
+[2020.10.15-03.24.22:013][411]LogPlayLevel: PIE: World Init took: (0.000905s)
+[2020.10.15-03.24.22:013][411]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/EscapeRoom.EscapeRoom to /Game/Levels/UEDPIE_0_EscapeRoom.EscapeRoom (0.006983s)
+[2020.10.15-03.24.22:023][411]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2020.10.15-03.24.22:024][411]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.15-03.24.22:024][411]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.15-03.24.22:024][411]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.15-03.24.22:025][411]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.15-03.24.22:025][411]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.15-03.24.22:025][411]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.15-03.24.22:025][411]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.15-03.24.22:025][411]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.15-03.24.22:025][411]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.15-03.24.22:025][411]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.15-03.24.22:037][411]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.15-03.24.22:037][411]LogAudioMixer: Display: 1: FrontRight
+[2020.10.15-03.24.22:065][411]LogAudioMixer: Display: Using Audio Device Dell S2716DG (NVIDIA High Definition Audio)
+[2020.10.15-03.24.22:065][411]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.15-03.24.22:065][411]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.15-03.24.22:065][411]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.15-03.24.22:065][411]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.15-03.24.22:078][411]LogInit: FAudioDevice initialized.
+[2020.10.15-03.24.22:082][411]LogLoad: Game class is 'ERGameMode_BP_C'
+[2020.10.15-03.24.22:084][411]LogWorld: Bringing World /Game/Levels/UEDPIE_0_EscapeRoom.EscapeRoom up for play (max tick rate 0) at 2020.10.14-20.24.22
+[2020.10.15-03.24.22:084][411]LogWorld: Bringing up level for play took: 0.000713
+[2020.10.15-03.24.22:084][411]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2020.10.15-03.24.22:086][411]LogTemp: Warning: Grabber activated.
+[2020.10.15-03.24.22:086][411]PIE: Server logged in
+[2020.10.15-03.24.22:087][411]PIE: Play in editor total start time 0.084 seconds.
+[2020.10.15-03.24.24:467][541]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.24:484][542]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.24:500][543]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.24:517][544]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.24:534][545]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.24:550][546]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.24:567][547]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.24:583][548]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.24:600][549]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.24:616][550]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.24:633][551]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.24:650][552]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.24:667][553]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.24:683][554]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.24:700][555]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.24:717][556]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.24:734][557]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.24:750][558]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.24:767][559]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.24:784][560]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.24:800][561]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.24:817][562]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.24:833][563]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.24:850][564]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.24:867][565]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.24:883][566]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.24:901][567]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.24:918][568]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.24:934][569]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.24:951][570]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.24:967][571]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.24:984][572]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.25:000][573]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.25:017][574]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.25:034][575]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.25:050][576]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.25:067][577]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.25:084][578]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.25:101][579]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.25:117][580]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.25:134][581]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.25:151][582]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.25:167][583]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.25:184][584]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.25:201][585]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.25:218][586]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.25:235][587]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.25:252][588]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.25:268][589]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.25:285][590]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.25:301][591]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.25:318][592]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.25:335][593]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.25:352][594]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.25:368][595]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.25:385][596]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.26:538][665]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.26:555][666]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.26:571][667]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.26:588][668]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.26:605][669]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.26:621][670]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.26:637][671]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.26:654][672]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.26:671][673]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.26:688][674]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.26:704][675]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.26:721][676]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.26:738][677]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.26:755][678]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.26:771][679]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.26:788][680]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.26:805][681]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.26:823][682]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.26:839][683]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.26:855][684]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.26:872][685]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.26:889][686]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.26:905][687]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.26:921][688]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.26:938][689]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.26:955][690]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.26:972][691]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.26:988][692]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.27:005][693]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.27:022][694]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.27:039][695]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.27:055][696]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.27:072][697]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.27:089][698]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.27:105][699]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.27:122][700]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.27:139][701]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.27:156][702]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.27:172][703]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.27:189][704]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.27:206][705]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.27:223][706]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.27:239][707]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.28:142][761]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.28:165][762]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.28:173][763]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.28:181][764]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.28:192][765]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.28:209][766]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.28:225][767]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.28:242][768]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.28:259][769]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.28:276][770]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.28:293][771]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.28:309][772]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.28:326][773]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.28:343][774]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.28:360][775]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.28:376][776]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.28:393][777]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.28:410][778]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.28:426][779]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.28:443][780]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.28:460][781]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.28:477][782]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.28:494][783]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.28:510][784]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.28:527][785]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.28:543][786]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.28:560][787]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.28:576][788]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.28:593][789]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.28:610][790]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.28:627][791]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.28:644][792]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.28:660][793]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.28:677][794]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.28:695][795]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.28:711][796]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.28:727][797]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.28:745][798]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.28:761][799]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.28:778][800]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.29:413][838]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.29:430][839]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.29:445][840]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.29:461][841]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.29:480][842]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.29:495][843]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.29:513][844]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.29:529][845]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.29:546][846]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.29:663][853]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.29:680][854]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.29:698][855]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.29:713][856]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.29:730][857]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.29:746][858]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.29:763][859]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.29:779][860]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.29:795][861]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.29:812][862]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.29:828][863]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.29:846][864]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.29:862][865]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.29:879][866]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.29:896][867]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.29:913][868]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.29:929][869]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.29:947][870]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.29:963][871]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.29:981][872]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.29:996][873]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.30:014][874]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.30:031][875]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.30:049][876]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.30:063][877]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.30:082][878]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.30:097][879]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.30:114][880]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.30:130][881]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.30:147][882]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.30:163][883]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.30:181][884]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.30:197][885]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.30:214][886]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.30:230][887]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.30:247][888]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.30:263][889]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.30:281][890]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.30:297][891]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.30:315][892]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.30:330][893]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.30:348][894]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.30:364][895]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.30:381][896]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.30:397][897]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.30:414][898]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.30:430][899]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.30:699][915]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.30:716][916]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.30:732][917]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.30:749][918]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.30:765][919]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.30:783][920]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.30:798][921]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.30:815][922]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.30:832][923]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.30:848][924]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.30:864][925]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.30:884][926]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.30:899][927]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.30:915][928]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.30:931][929]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.30:949][930]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.30:966][931]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.30:982][932]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.30:998][933]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.31:016][934]LogTemp: Error: Sphere_2
+[2020.10.15-03.24.32:604][ 25]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.15-03.24.32:604][ 25]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_EscapeRoom
+[2020.10.15-03.24.32:604][ 25]LogWorld: UWorld::CleanupWorld for EscapeRoom, bSessionEnded=true, bCleanupResources=true
+[2020.10.15-03.24.32:605][ 25]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.15-03.24.32:617][ 25]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.15-03.24.32:618][ 25]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.15-03.24.32:642][ 25]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.15-03.24.32:643][ 25]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000168DE506840), frame # 14025
+[2020.10.15-03.24.32:643][ 25]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000168B3F9E600), frame # 14025
+[2020.10.15-03.24.32:644][ 25]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2020.10.15-03.24.32:679][ 26]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2020.10.15-03.25.33:462][817]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP/DefaultPawn_BP.DefaultPawn_BP
+[2020.10.15-03.25.34:648][817]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 125 classes and 0 folders.
+[2020.10.15-03.25.36:886][817]LogSlate: Took 0.000168 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.10.15-03.25.38:163][860]LogSlate: Took 0.013698 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.10.15-03.25.42:580][ 45]LogEditCondition: Error: EditCondition parsing failed: Field name "bSoftConstraint" was not found in class "PhysicsHandleComponent".
+[2020.10.15-03.25.45:130][200]BlueprintLog: New page: Compile DefaultPawn_BP
+[2020.10.15-03.25.45:197][200]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2020.10.15-03.25.46:195][246]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/DefaultPawn_BP" FILE="../../../../ue4/EscapeRoom/Content/BP/DefaultPawn_BP.uasset" SILENT=true
+[2020.10.15-03.25.46:487][246]LogSavePackage: Moving '../../../../ue4/EscapeRoom/Saved/DefaultPawn_BP5799BF12462D6942254762A748AE773F.tmp' to '../../../../ue4/EscapeRoom/Content/BP/DefaultPawn_BP.uasset'
+[2020.10.15-03.25.46:568][246]AssetCheck: New page: Asset Save: DefaultPawn_BP
+[2020.10.15-03.25.46:568][246]LogContentValidation: Display: Validating Blueprint /Game/BP/DefaultPawn_BP.DefaultPawn_BP
+[2020.10.15-03.28.05:677][919]Candidate modules for hot reload:
+[2020.10.15-03.28.05:677][919]  EscapeRoom
+[2020.10.15-03.28.05:677][919]Launching UnrealBuildTool... [E:/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=EscapeRoom,6792 EscapeRoomEditor Win64 Development -Project="E:/ue4/EscapeRoom/EscapeRoom.uproject" "E:/ue4/EscapeRoom/EscapeRoom.uproject"  -IgnoreJunk]
+[2020.10.15-03.28.05:687][919]Warning: Starting HotReload took  0.0s.
+[2020.10.15-03.29.18:737][277]CompilerResultsLog: New page: Compilation - Oct 14, 2020, 1:29:18 PM
+[2020.10.15-03.29.18:737][277]CompilerResultsLog: Parsing headers for EscapeRoomEditor
+[2020.10.15-03.29.18:737][277]CompilerResultsLog:   Running UnrealHeaderTool "E:\ue4\EscapeRoom\EscapeRoom.uproject" "E:\ue4\EscapeRoom\Intermediate\Build\Win64\EscapeRoomEditor\Development\EscapeRoomEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\32808\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.10.15-03.29.18:738][277]CompilerResultsLog: Reflection code generated for EscapeRoomEditor in 12.4093521 seconds
+[2020.10.15-03.29.18:738][277]CompilerResultsLog: Building EscapeRoomEditor...
+[2020.10.15-03.29.18:738][277]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.10.15-03.29.18:738][277]CompilerResultsLog: Building 5 actions with 8 processes...
+[2020.10.15-03.29.18:738][277]CompilerResultsLog:   [1/5] Grabber.cpp
+[2020.10.15-03.29.18:738][277]CompilerResultsLog:   [2/5] Grabber.gen.cpp
+[2020.10.15-03.29.18:738][277]CompilerResultsLog:   [3/5] UE4Editor-EscapeRoom-6792.lib
+[2020.10.15-03.29.18:738][277]CompilerResultsLog:      Creating library E:\ue4\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\EscapeRoom\UE4Editor-EscapeRoom-6792.lib and object E:\ue4\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\EscapeRoom\UE4Editor-EscapeRoom-6792.exp
+[2020.10.15-03.29.18:738][277]CompilerResultsLog:   [4/5] UE4Editor-EscapeRoom-6792.dll
+[2020.10.15-03.29.18:738][277]CompilerResultsLog:      Creating library E:\ue4\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\EscapeRoom\UE4Editor-EscapeRoom-6792.suppressed.lib and object E:\ue4\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\EscapeRoom\UE4Editor-EscapeRoom-6792.suppressed.exp
+[2020.10.15-03.29.18:738][277]CompilerResultsLog:   [5/5] EscapeRoomEditor.target
+[2020.10.15-03.29.18:738][277]CompilerResultsLog: Total time in Parallel executor: 59.77 seconds
+[2020.10.15-03.29.18:738][277]CompilerResultsLog: Total execution time: 72.87 seconds
+[2020.10.15-03.29.18:738][277]LogMainFrame: MainFrame: Module compiling took 73.069 seconds
+[2020.10.15-03.29.18:746][277]LogClass: Could not find existing class Grabber in package /Script/EscapeRoom for HotReload, assuming new class
+[2020.10.15-03.29.18:753][277]LogHotReload: Re-instancing Grabber after hot-reload.
+[2020.10.15-03.29.18:812][277]LogContentBrowser: Native class hierarchy updated for 'EscapeRoom' in 0.0004 seconds. Added 3 classes and 2 folders.
+[2020.10.15-03.29.18:814][277]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.10.15-03.29.18:873][277]LogContentBrowser: Native class hierarchy populated in 0.0082 seconds. Added 3430 classes and 823 folders.
+[2020.10.15-03.29.18:873][277]Display: HotReload took 73.2s.
+[2020.10.15-03.29.26:340][407]Candidate modules for hot reload:
+[2020.10.15-03.29.26:340][407]  EscapeRoom
+[2020.10.15-03.29.26:340][407]Launching UnrealBuildTool... [E:/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=EscapeRoom,791 EscapeRoomEditor Win64 Development -Project="E:/ue4/EscapeRoom/EscapeRoom.uproject" "E:/ue4/EscapeRoom/EscapeRoom.uproject"  -IgnoreJunk]
+[2020.10.15-03.29.26:350][407]Warning: Starting HotReload took  0.0s.
+[2020.10.15-03.29.27:925][488]CompilerResultsLog: New page: Compilation - Oct 14, 2020, 1:29:27 PM
+[2020.10.15-03.29.27:925][488]CompilerResultsLog: Building EscapeRoomEditor...
+[2020.10.15-03.29.27:925][488]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.10.15-03.29.27:925][488]CompilerResultsLog: Building 3 actions with 8 processes...
+[2020.10.15-03.29.27:925][488]CompilerResultsLog:   [1/3] UE4Editor-EscapeRoom-0791.lib
+[2020.10.15-03.29.27:925][488]CompilerResultsLog:      Creating library E:\ue4\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\EscapeRoom\UE4Editor-EscapeRoom-0791.lib and object E:\ue4\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\EscapeRoom\UE4Editor-EscapeRoom-0791.exp
+[2020.10.15-03.29.27:925][488]CompilerResultsLog:   [2/3] UE4Editor-EscapeRoom-0791.dll
+[2020.10.15-03.29.27:925][488]CompilerResultsLog:      Creating library E:\ue4\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\EscapeRoom\UE4Editor-EscapeRoom-0791.suppressed.lib and object E:\ue4\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\EscapeRoom\UE4Editor-EscapeRoom-0791.suppressed.exp
+[2020.10.15-03.29.27:925][488]CompilerResultsLog:   [3/3] EscapeRoomEditor.target
+[2020.10.15-03.29.27:925][488]CompilerResultsLog: Total time in Parallel executor: 0.87 seconds
+[2020.10.15-03.29.27:925][488]CompilerResultsLog: Total execution time: 1.49 seconds
+[2020.10.15-03.29.27:925][488]LogMainFrame: MainFrame: Module compiling took 1.597 seconds
+[2020.10.15-03.29.27:942][488]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 3430 classes and 823 folders.
+[2020.10.15-03.29.27:942][488]Display: HotReload took  1.6s.
+[2020.10.15-03.29.29:563][569]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.15-03.29.29:590][569]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.15-03.29.29:590][569]PIE: New page: PIE session: EscapeRoom (Oct 14, 2020, 1:29:29 PM)
+[2020.10.15-03.29.29:620][569]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_EscapeRoom
+[2020.10.15-03.29.29:629][569]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009439s)
+[2020.10.15-03.29.29:630][569]LogAIModule: Creating AISystem for world EscapeRoom
+[2020.10.15-03.29.29:630][569]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001691F2CE800), frame # 16569
+[2020.10.15-03.29.29:630][569]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000168C40A3D80), frame # 16569
+[2020.10.15-03.29.29:630][569]LogPlayLevel: PIE: World Init took: (0.001145s)
+[2020.10.15-03.29.29:631][569]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/EscapeRoom.EscapeRoom to /Game/Levels/UEDPIE_0_EscapeRoom.EscapeRoom (0.010741s)
+[2020.10.15-03.29.29:701][569]LogUObjectHash: Compacting FUObjectHashTables data took   3.34ms
+[2020.10.15-03.29.29:702][569]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.15-03.29.29:702][569]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.15-03.29.29:702][569]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.15-03.29.29:702][569]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.15-03.29.29:702][569]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.15-03.29.29:702][569]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.15-03.29.29:702][569]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.15-03.29.29:702][569]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.15-03.29.29:703][569]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.15-03.29.29:703][569]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.15-03.29.29:714][569]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.15-03.29.29:714][569]LogAudioMixer: Display: 1: FrontRight
+[2020.10.15-03.29.29:744][569]LogAudioMixer: Display: Using Audio Device Dell S2716DG (NVIDIA High Definition Audio)
+[2020.10.15-03.29.29:744][569]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.15-03.29.29:744][569]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.15-03.29.29:744][569]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.15-03.29.29:745][569]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.15-03.29.29:757][569]LogInit: FAudioDevice initialized.
+[2020.10.15-03.29.29:761][569]LogLoad: Game class is 'ERGameMode_BP_C'
+[2020.10.15-03.29.29:763][569]LogWorld: Bringing World /Game/Levels/UEDPIE_0_EscapeRoom.EscapeRoom up for play (max tick rate 0) at 2020.10.14-20.29.29
+[2020.10.15-03.29.29:763][569]LogWorld: Bringing up level for play took: 0.000741
+[2020.10.15-03.29.29:763][569]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2020.10.15-03.29.29:765][569]LogTemp: Warning: Grabber activated.
+[2020.10.15-03.29.29:765][569]PIE: Server logged in
+[2020.10.15-03.29.29:766][569]PIE: Play in editor total start time 0.194 seconds.
+[2020.10.15-03.29.34:659][745]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.34:675][746]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.34:692][747]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.34:709][748]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.34:724][749]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.34:743][750]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.34:759][751]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.34:775][752]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.34:792][753]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.34:808][754]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.34:825][755]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.34:842][756]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.34:859][757]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.34:875][758]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.34:892][759]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.34:908][760]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.34:925][761]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.34:942][762]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.34:978][763]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.34:987][764]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.34:995][765]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.35:003][766]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.35:012][767]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.35:026][768]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.35:043][769]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.35:060][770]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.35:076][771]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.35:094][772]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.35:110][773]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.35:127][774]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.35:144][775]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.35:159][776]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.35:177][777]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.35:194][778]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.35:211][779]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.35:228][780]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.35:244][781]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.35:261][782]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.35:278][783]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.35:294][784]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.35:312][785]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.35:329][786]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.35:344][787]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.35:361][788]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.35:377][789]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.35:394][790]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.35:410][791]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.35:426][792]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.35:444][793]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.35:460][794]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.35:477][795]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.35:494][796]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.35:511][797]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.35:528][798]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.35:545][799]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.35:561][800]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.35:577][801]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.35:594][802]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.35:611][803]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.35:628][804]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.35:644][805]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.35:661][806]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.35:678][807]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.35:694][808]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.35:712][809]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.35:729][810]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.35:746][811]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.35:762][812]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.35:778][813]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.35:796][814]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.35:812][815]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.35:829][816]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.35:845][817]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.35:862][818]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.35:878][819]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.35:895][820]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.35:911][821]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.35:927][822]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.35:945][823]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.35:961][824]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.35:978][825]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.35:995][826]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.36:012][827]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.36:029][828]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.36:046][829]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.36:062][830]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.36:079][831]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.36:096][832]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.36:114][833]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.36:130][834]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.36:147][835]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.36:164][836]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.36:180][837]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.36:196][838]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.36:213][839]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.36:230][840]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.36:247][841]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.36:264][842]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.36:281][843]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.36:299][844]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.36:313][845]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.36:328][846]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.36:346][847]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.36:362][848]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.36:380][849]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.36:396][850]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.36:414][851]LogTemp: Error: Sphere_2
+[2020.10.15-03.29.37:392][908]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.15-03.29.37:392][908]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_EscapeRoom
+[2020.10.15-03.29.37:392][908]LogWorld: UWorld::CleanupWorld for EscapeRoom, bSessionEnded=true, bCleanupResources=true
+[2020.10.15-03.29.37:392][908]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.15-03.29.37:401][908]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.15-03.29.37:404][908]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.15-03.29.37:424][908]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.15-03.29.37:442][908]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001691F2CE800), frame # 16908
+[2020.10.15-03.29.37:442][908]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000168C40A3D80), frame # 16908
+[2020.10.15-03.29.37:445][908]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2020.10.15-03.29.37:476][909]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2020.10.15-03.30.16:086][326]LogSlate: Window 'DefaultPawn_BP' being destroyed
+[2020.10.15-03.30.16:089][326]LogSlate: Window 'DefaultPawn_BP' being destroyed
+[2020.10.15-03.30.16:130][326]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2020.10.15-03.30.16:130][326]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.15-03.30.24:325][777]LogAssetEditorSubsystem: Opening Asset editor for Class /Script/EscapeRoom.Grabber
+[2020.10.15-03.30.24:499][777]LogVSAccessor: Warning: Couldn't goto line number '1' in 'E:/ue4/EscapeRoom/Source/EscapeRoom/Grabber.h'
+[2020.10.15-03.30.24:594][777]LogVSAccessor: Warning: Couldn't goto line number '1' in 'E:/ue4/EscapeRoom/Source/EscapeRoom/Grabber.cpp'
+[2020.10.15-03.32.41:314][617]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/EscapeRoom" FILE="../../../../ue4/EscapeRoom/Content/Levels/EscapeRoom.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.10.15-03.32.41:362][617]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2020.10.15-03.32.41:402][617]LogSavePackage: Moving '../../../../ue4/EscapeRoom/Saved/EscapeRoom787A719C4EE99753FDE0CC9BE7462BD5.tmp' to '../../../../ue4/EscapeRoom/Content/Levels/EscapeRoom.umap'
+[2020.10.15-03.32.41:419][617]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/EscapeRoom_BuiltData" FILE="../../../../ue4/EscapeRoom/Content/Levels/EscapeRoom_BuiltData.uasset" SILENT=true
+[2020.10.15-03.32.41:514][617]LogSavePackage: Moving '../../../../ue4/EscapeRoom/Saved/EscapeRoom_BuiltData5D12FCD649177F863BD6F7BDCA1B59D2.tmp' to '../../../../ue4/EscapeRoom/Content/Levels/EscapeRoom_BuiltData.uasset'
+[2020.10.15-03.32.41:568][617]AssetCheck: New page: Asset Save: multiple assets
+[2020.10.15-03.32.41:568][617]LogContentValidation: Display: Validating World /Game/Levels/EscapeRoom.EscapeRoom
+[2020.10.15-03.32.41:568][617]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/EscapeRoom_BuiltData.EscapeRoom_BuiltData
+[2020.10.15-03.32.44:364][785]Candidate modules for hot reload:
+[2020.10.15-03.32.44:365][785]  EscapeRoom
+[2020.10.15-03.32.44:365][785]Launching UnrealBuildTool... [E:/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=EscapeRoom,1415 EscapeRoomEditor Win64 Development -Project="E:/ue4/EscapeRoom/EscapeRoom.uproject" "E:/ue4/EscapeRoom/EscapeRoom.uproject"  -IgnoreJunk]
+[2020.10.15-03.32.44:375][785]Warning: Starting HotReload took  0.0s.
+[2020.10.15-03.32.57:997][302]CompilerResultsLog: New page: Compilation - Oct 14, 2020, 1:32:57 PM
+[2020.10.15-03.32.57:997][302]CompilerResultsLog: Parsing headers for EscapeRoomEditor
+[2020.10.15-03.32.57:997][302]CompilerResultsLog:   Running UnrealHeaderTool "E:\ue4\EscapeRoom\EscapeRoom.uproject" "E:\ue4\EscapeRoom\Intermediate\Build\Win64\EscapeRoomEditor\Development\EscapeRoomEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\32808\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.10.15-03.32.57:997][302]CompilerResultsLog: Reflection code generated for EscapeRoomEditor in 5.4521396 seconds
+[2020.10.15-03.32.57:997][302]CompilerResultsLog: Building EscapeRoomEditor...
+[2020.10.15-03.32.57:997][302]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.10.15-03.32.57:997][302]CompilerResultsLog: Building 5 actions with 8 processes...
+[2020.10.15-03.32.57:997][302]CompilerResultsLog:   [1/5] Grabber.gen.cpp
+[2020.10.15-03.32.57:997][302]CompilerResultsLog:   [2/5] Grabber.cpp
+[2020.10.15-03.32.57:997][302]CompilerResultsLog:   [3/5] UE4Editor-EscapeRoom-1415.lib
+[2020.10.15-03.32.57:997][302]CompilerResultsLog:      Creating library E:\ue4\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\EscapeRoom\UE4Editor-EscapeRoom-1415.lib and object E:\ue4\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\EscapeRoom\UE4Editor-EscapeRoom-1415.exp
+[2020.10.15-03.32.57:997][302]CompilerResultsLog:   [4/5] UE4Editor-EscapeRoom-1415.dll
+[2020.10.15-03.32.57:997][302]CompilerResultsLog:      Creating library E:\ue4\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\EscapeRoom\UE4Editor-EscapeRoom-1415.suppressed.lib and object E:\ue4\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\EscapeRoom\UE4Editor-EscapeRoom-1415.suppressed.exp
+[2020.10.15-03.32.57:997][302]CompilerResultsLog:   [5/5] EscapeRoomEditor.target
+[2020.10.15-03.32.57:997][302]CompilerResultsLog: Total time in Parallel executor: 7.03 seconds
+[2020.10.15-03.32.57:997][302]CompilerResultsLog: Total execution time: 13.13 seconds
+[2020.10.15-03.32.57:997][302]LogMainFrame: MainFrame: Module compiling took 13.640 seconds
